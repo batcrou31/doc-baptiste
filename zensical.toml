@@ -8,6 +8,7 @@
 
 [project]
 
+edit_uri = "/tree/main/docs/"
 repo_url = "https://github.com/batcrou31/zeniscal-prod"
 # The site_name is shown in the page header and the browser window title
 #
