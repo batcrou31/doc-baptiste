@@ -6,7 +6,7 @@ modified: 2026-03-06
 
 # Configuration
 
-## Modification du fichier de configuration
+## 1 - Modification du fichier de configuration
 Navigez dans vers votre fichier de configuration `/home/docker/appdata/nextcloud/config/www/nextcloud/config`.
 <div style="page-break-after: always;"></div>
 
@@ -101,7 +101,7 @@ $CONFIG = array (
 );
 ```
 
-## Optimisation de la base de données
+## 2 - Optimisation de la base de données
 Navigez dans vers votre fichier de configuration `/home/docker/appdata/nextclouddb/config/`
 <div style="page-break-after: always;"></div>
 
