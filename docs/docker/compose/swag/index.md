@@ -4,9 +4,10 @@ hide:
   - toc
   - path
 ---
-![Image title](../../../assets/docker/swag/linuxserver.png){ align=right }
 
 # Présentation
+
+![Image title](../../../assets/docker/swag/linuxserver.png){ align=right }
 
 SWAG (Secure Web Application Gateway) est un conteneur docker créer par linuxserver.io, ce conteneur inclut un serveur web Nginx, un proxy inverse avec prise en charge PHP et un client certbot intégré qui automatise la génération et le renouvellement gratuits des certificats SSL (Let's Encrypt et ZeroSSL). Il inclut également fail2ban pour la prévention des intrusions.
 
