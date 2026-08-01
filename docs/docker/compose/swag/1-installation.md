@@ -9,7 +9,7 @@ icon: fontawesome/solid/hammer
 Chez notre fournisseur DNS, il vous faut créer un enregistrement `A` pour le domaine principal et le faire pointer vers __l'adresse IP__ de votre box/routeur (WAN). Il faut également créer un enregistrement `CNAME` wildcard `*` et le faire pointer vers l'enregistrement `A` du domaine. 
 
 !!! note "Information importante"
-    Sur Cloudflare, Il faut décocher __le nuage orange__ pour le rendre gris afin qu'il ne s'agisse que d'une requête DNS et non d'une requête mise en cache ou relayée par Cloudflare, ce qui complexifierait inutilement la configuration.
+    Sur Cloudflare, Il faut décocher __le nuage orange__ afin qu'il ne s'agisse que d'une requête DNS et non d'une requête mise en cache ou relayée par Cloudflare, ce qui complexifierait inutilement la configuration.
 
 
 ## 2 - Fichier docker compose
@@ -55,10 +55,10 @@ Une fois le conteneur démarré, il faut consulter les logs :
 ```
 docker logs swag -f
 ```
-Après quelques étapes d'initialisation, nous constaterons qu'une erreur de validation se produit en raison d'identifiants incorrects. En effet, nous n'avons pas encore saisi les identifiants corrects pour l'API Cloudflare. Nous pouvons accéder à l'emplacement /config/dns-conf mappé depuis l'hôte (conformément aux paramètres ci-dessus) /home/docker/appdata/swag/config/dns-conf/ et modifier le fichier __.ini__ correspondant à notre fournisseur DNS. Pour Cloudflare, nous saisirons notre jeton d'API. 
+Après quelques étapes d'initialisation, nous constaterons qu'une erreur de validation se produit en raison d'identifiants incorrects. En effet, nous n'avons pas encore saisi les identifiants corrects pour l'API Cloudflare. Nous pouvons accéder à l'emplacement __/config/dns-conf__ mappé depuis l'hôte (conformément aux paramètres ci-dessus) __/home/docker/appdata/swag/config/dns-conf/__ et modifier le fichier __.ini__ correspondant à notre fournisseur DNS. 
 
 !!! note "Information importante"
-    Ce jeton peut être créé en accédant à Mon profil > Jetons d'API et en créant un jeton disposant de l'autorisation « Modifier le DNS » sur les zones DNS pour lesquelles vous souhaitez demander des certificats.
+    Ce jeton peut être créé en accédant à __Mon profil > Jetons d'API__ et en créant un jeton disposant de l'autorisation « Modifier le DNS » sur les zones DNS pour lesquelles vous souhaitez demander des certificats.
 
 Dans le fichier __cloudflare.ini__, commentez les valeurs : 
 
@@ -83,7 +83,7 @@ Une fois les identifiants saisis dans le fichier __.ini__, il faut redémarer le
 ```
 docker restart swag 
 ```
-Après validation, une notification devrait s'afficher `Server read yet` notre serveur web devrait être opérationnel et accessible à l'adresse `https://www.exemple.fr`.
+Après validation, une notification devrait afficher `Server read yet` qui indique que notre serveur web devrait être opérationnel et accessible à l'adresse `https://www.exemple.fr`.
 
 ### Méthode OVH
 
