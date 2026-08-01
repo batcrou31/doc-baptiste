@@ -4,6 +4,7 @@ hide:
   - toc
   - path
 ---
+![Image title](../../../assets/docker/swag/linuxserver.png){ align=right }
 
 # Présentation
 
