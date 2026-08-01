@@ -55,7 +55,7 @@ Une fois le conteneur démarré, il faut consulter les logs :
 ```
 docker logs swag -f
 ```
-Après quelques étapes d'initialisation, nous constaterons qu'une erreur de validation se produit en raison d'identifiants incorrects. En effet, nous n'avons pas encore saisi les identifiants corrects pour l'API Cloudflare. Nous pouvons accéder à l'emplacement __/config/dns-conf__ mappé depuis l'hôte (conformément aux paramètres ci-dessus) __/home/docker/appdata/swag/config/dns-conf/__ et modifier le fichier __.ini__ correspondant à notre fournisseur DNS. 
+Après quelques étapes d'initialisation, nous constaterons qu'une erreur de validation se produit en raison d'identifiants incorrects. En effet, nous n'avons pas encore saisi les identifiants corrects pour l'API Cloudflare. Nous pouvons accéder à l'emplacement __/config/dns-conf__ mappé depuis l'hôte (conformément aux paramètres ci-dessus) et modifier le fichier ____cloudflare.ini__. 
 
 !!! note "Information importante"
     Ce jeton peut être créé en accédant à __Mon profil > Jetons d'API__ et en créant un jeton disposant de l'autorisation « Modifier le DNS » sur les zones DNS pour lesquelles vous souhaitez demander des certificats.
@@ -128,7 +128,7 @@ Une fois le conteneur démarré, il faut consulter les logs :
 docker logs swag -f
 ```
 
-Après quelques étapes d'initialisation, nous constaterons qu'une erreur de validation se produit en raison d'identifiants incorrects. En effet, nous n'avons pas encore saisi les identifiants corrects pour l'API OVH. Nous pouvons accéder à l'emplacement /config/dns-conf mappé depuis l'hôte (conformément aux paramètres ci-dessus) /home/docker/appdata/swag/config/dns-conf/ et modifier le fichier __.ini__ correspondant à notre fournisseur DNS. Pour OVH, nous saisirons nos jetons d'API. 
+Après quelques étapes d'initialisation, nous constaterons qu'une erreur de validation se produit en raison d'identifiants incorrects. En effet, nous n'avons pas encore saisi les identifiants corrects pour l'API OVH. Nous pouvons accéder à l'emplacement __/config/dns-conf__ mappé depuis l'hôte (conformément aux paramètres ci-dessus) et modifier le fichier __ovh.ini__. 
 
 !!! note "Information importante"
     Ce jeton peut être créé en accédant via ce lien : <a href="https://auth.eu.ovhcloud.com/api/createToken" target="_blank" rel="noopener noreferrer">auth.eu.ovhcloud.com/api/createToken</a>
