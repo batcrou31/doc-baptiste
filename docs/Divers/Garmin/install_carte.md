@@ -79,32 +79,18 @@ Pour finir, il faut __cochez la carte à installer__ et vérifier qu'il vous res
   ![Image title](../../assets/divers/garmin/BC-03.PNG){ width="700" }
 </figure>
 
-## __4 - Configuration du GRUB__
-Pour modifier le GRUB, il faut éditer le fichier "grub.cfg" présent dans la clé USB (`F:\boot\grub`) puis remplacer avec le contenu suivant :
-
-```
-set default='5'
-set timeout='0'
- 
-menuentry 'Proxmox VE 8.4' {
-  set root=(hd4)
-  chainloader +1
-}
-```
-
-<figure markdown="span">
-  ![Image title](../assets/divers/garmin/BC-01.PNG){ width="350" }
-</figure>
-il vous faut ensuite modifier le nom de la partition sur laquelle vous voulez démarrer (exemple "hd4" "hd3,msdos1" etc..)
-
-!!! note "Information importante"
-    si vous n'arrivez pas à démarrer sur votre partition mais que votre machine accède au GRUB de la clé taper "c" et faite la commande "list", cela vous aidera pour repérer toutes les partitions présente. Il ne vous restera plus qu'à les tester une par une.
-
 ---
 
-## __5 - Sources__
+## 4 - Configuration sur l'apparreil
 
-- <a href="https://www.bastelbunker.de/hp-microserver-gen8-booten-von-den-odd-port/" target="_blank" rel="noopener noreferrer">bastelbunker</a>
-- <a href="https://www.linuxserver.io/blog/2015-03-24-setting-up-a-linux-home-server-using-the-hp-proliant-microserver-gen8-g1610t-3" target="_blank" rel="noopener noreferrer">linuxserver</a>
+Vous pouvez maintenant déconnecter votre appareil et l'allumer.
 
----
+<div style="page-break-after: always;"></div>
+
+Maintenant il faut changer la carte par défaut par celle que nous venons d'installer, pour ce faire sélectionnez __Menu__ -> __Paramètres__ -> __Profils d'activité__ -> __Sélectionner le profil de votre choix (VTT, VTT élec, Route etc...)__ -> __Navigation__ -> __Information carte__ puis __openmtbmap_france_xxxxx__.
+
+!!! warning
+
+    Garmin a introduit un mode contraste élevé complètement défectueux, qui décolore les couleurs des cartes. Vous pouvez désactiver ce mode en effectuant la modification suivante sous :
+    - __Profils d'activité__ -> __Sélectionnez un profil__ puis  __Navigation__  ->  __Carte__  ->  __Thème de la carte__ -> __CLASSIQUE__
+
