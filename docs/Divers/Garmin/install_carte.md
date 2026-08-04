@@ -81,7 +81,7 @@ menuentry 'Proxmox VE 8.4' {
 ```
 
 <figure markdown="span">
-  ![Image title](../assets/divers/garmin/grub.png){ width="350" }
+  ![Image title](../assets/divers/garmin/BC-01.PNG){ width="350" }
 </figure>
 il vous faut ensuite modifier le nom de la partition sur laquelle vous voulez démarrer (exemple "hd4" "hd3,msdos1" etc..)
 
