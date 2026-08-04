@@ -1,5 +1,5 @@
 ---
-icon: simple/gnubash
+icon: map
 created: 2026-08-04
 modified: 2026-08-04
 hide:
