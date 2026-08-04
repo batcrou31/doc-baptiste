@@ -61,10 +61,22 @@ Après avoir téléchargé le logiciel et la carte, vous pouvez maintenant conne
 
     Des bruits de connexions/déconnexions peuvent survenir si c'est la première fois que vous branchez l'appareil sur votre ordinateur, je vous conseille de patienter au moins     5 minutes que les cartes par défaut se chargent, avant d'installer la carte sur votre appareil afin d'éviter tout problèmes.
 
-Ensuite, dans le logiciel
+Une fois dans le logiciel, naviguez dans la section __Carte__ puis sélectionner la carte installer précédemment installé (__openmtbmap_france_xxxxx__) et enfin __Installer les cartes__.
 
 <figure markdown="span">
-  ![Image title](../../assets/divers/garmin/BC-01.PNG){ width="450" }
+  ![Image title](../../assets/divers/garmin/BC-01.PNG){ width="550" }
+</figure>
+
+Ensuite, __sélectionner votre appareil__ (dans mon cas le Edge 530) puis __Personnaliser__.
+
+<figure markdown="span">
+  ![Image title](../../assets/divers/garmin/BC-02.PNG){ width="550" }
+</figure>
+
+Pour finir, il faut __cochez la carte à installer__ et vérifier qu'il vous reste un peu de place.
+
+<figure markdown="span">
+  ![Image title](../../assets/divers/garmin/BC-03.PNG){ width="550" }
 </figure>
 
 ## __4 - Configuration du GRUB__
