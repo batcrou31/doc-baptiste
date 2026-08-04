@@ -1,5 +1,5 @@
 ---
-icon: map
+icon: material/map/plus
 created: 2026-08-04
 modified: 2026-08-04
 hide:
