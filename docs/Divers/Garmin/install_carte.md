@@ -87,10 +87,10 @@ Vous pouvez maintenant déconnecter votre appareil et l'allumer.
 
 <div style="page-break-after: always;"></div>
 
-Maintenant il faut changer la carte par défaut par celle que nous venons d'installer, pour ce faire sélectionnez __Menu__ -> __Paramètres__ -> __Profils d'activité__ -> __Sélectionner le profil de votre choix (VTT, VTT élec, Route etc...)__ -> __Navigation__ -> __Information carte__ puis __openmtbmap_france_xxxxx__.
+Maintenant il faut changer la carte par défaut par celle que nous venons d'installer, pour ce faire sélectionnez __Menu__ -> __Paramètres__ -> __Profils d'activité__ -> __Sélectionner un profil (VTT, Route etc...)__ -> __Navigation__ -> __Information carte__ puis __openmtbmap_france_xxxxx__.
 
-!!! warning
+!!! Attention
 
-    Garmin a introduit un mode contraste élevé complètement défectueux, qui décolore les couleurs des cartes. Vous pouvez désactiver ce mode en effectuant la modification suivante sous :
-    - __Profils d'activité__ -> __Sélectionnez un profil__ puis  __Navigation__  ->  __Carte__  ->  __Thème de la carte__ -> __CLASSIQUE__
+    Garmin a introduit un mode contraste élevé complètement défectueux, qui décolore les couleurs des cartes. Vous pouvez désactiver ce mode en effectuant la modification suivante sous
+    __Menu__ -> __Paramètres__ -> __Profils d'activité__ -> __Sélectionnez un profil__ -> __Navigation__ -> __Carte__ -> __Thème de la carte__ -> __CLASSIQUE__
 
