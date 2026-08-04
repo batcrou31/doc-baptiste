@@ -7,7 +7,7 @@ hide:
 ---
 
 
-# Ajout Carte sur Garmin Edge
+# Carte Garmin Edge
 ## 1 - Compatibilité
 
 Il existe 2 versions pour les cartes <a href="https://openmtbmap.org/" target="_blank" rel="noopener noreferrer">openmtbmap</a> (Cartes VTT) et <a href="https://www.velomap.org/" target="_blank" rel="noopener noreferrer">velomap</a> (Cartes Route) :
