@@ -64,19 +64,19 @@ Après avoir téléchargé le logiciel et la carte, vous pouvez maintenant conne
 Une fois dans le logiciel, naviguez dans la section __Carte__ puis sélectionner la carte installer précédemment installé (__openmtbmap_france_xxxxx__) et enfin __Installer les cartes__.
 
 <figure markdown="span">
-  ![Image title](../../assets/divers/garmin/BC-01.PNG){ width="550" }
+  ![Image title](../../assets/divers/garmin/BC-01.PNG){ width="700" }
 </figure>
 
 Ensuite, __sélectionner votre appareil__ (dans mon cas le Edge 530) puis __Personnaliser__.
 
 <figure markdown="span">
-  ![Image title](../../assets/divers/garmin/BC-02.PNG){ width="550" }
+  ![Image title](../../assets/divers/garmin/BC-02.PNG){ width="700" }
 </figure>
 
 Pour finir, il faut __cochez la carte à installer__ et vérifier qu'il vous reste un peu de place.
 
 <figure markdown="span">
-  ![Image title](../../assets/divers/garmin/BC-03.PNG){ width="550" }
+  ![Image title](../../assets/divers/garmin/BC-03.PNG){ width="700" }
 </figure>
 
 ## __4 - Configuration du GRUB__
