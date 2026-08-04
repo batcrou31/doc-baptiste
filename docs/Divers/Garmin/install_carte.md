@@ -64,7 +64,7 @@ Après avoir téléchargé le logiciel et la carte, vous pouvez maintenant conne
 Ensuite, dans le logiciel
 
 <figure markdown="span">
-  ![Image title](../../assets/linux/grub.png){ width="450" }
+  ![Image title](../../assets/linux/BC-01.png){ width="450" }
 </figure>
 
 ## __4 - Configuration du GRUB__
