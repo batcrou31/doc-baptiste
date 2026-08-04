@@ -8,9 +8,9 @@ hide:
 
 
 # Ajout Carte sur Garmin Edge
-## __1 - Compatibilité__
+## 1 - Compatibilité
 
-Il existe 2 versions pour les cartes [openmtbmap](https://openmtbmap.org/) (Cartes VTT) et [velomap](https://www.velomap.org/) (Cartes Route) :
+Il existe 2 versions pour les cartes <a href="https://openmtbmap.org/" target="_blank" rel="noopener noreferrer">openmtbmap</a> (Cartes VTT) et <a href="https://www.velomap.org/" target="_blank" rel="noopener noreferrer">velomap</a> (Cartes Route) :
 
 - Version __unicode__ nécessaire pour afficher plusieurs alphabets sur une même carte.
 - Version __non unicode__ ne peuvent afficher qu'un seul alphabet (par exemple, le cyrillique et le latin), mais pas les deux.
@@ -28,22 +28,43 @@ Les appareils Garmin suivants sont concernés :
 
 Assurez vous également d'avoir une carte SD d'au moins 16gb sur votre appareil, car par exemple la carte de la France fait environ 4gb. 
 
-![Image title](../assets/linux/HP_GEN8.png){ align=right }
-J'ai eu besoin d'utiliser cette technique car je possède un HP Microserver Gen 8 qui n'est pas conçu pour démarrer sur le SSD qui est situé dans la baie optique sans passer par le contrôleur RAID intégré.
-## __2 - Installation de l'ISO__
-Pour créer la clé USB, il faut utiliser "Super Grub2 Disk" qui est une ISO qui va partitionner la clé et créer tout les fichiers nécessaire au bon fonctionement de GRUB.
-<div style="page-break-after: always;"></div>
-
-[Télécharger](https://sourceforge.net/projects/supergrub2/files/2.06s4/super_grub2_disk_2.06s4/supergrub2-2.06s4-multiarch-USB.img.zip){ .md-button target=_blank } 
-
 ---
 
-## __3 - Création de la clé USB__
-Pour monter l'ISO sur la clé USB, il est possible d'utiliser [Rufus](https://rufus.ie/) ou [Balena Htcher](https://etcher.balena.io/).
-<div style="page-break-after: always;"></div>
-Exemple avec Rufus :
+## 2 - Préparation
+
+### Installation de BaseCamp
+
+Pour Installer une carte il vous faut obligatoirement télécharger la dernière version du logiciel Garmin "BaseCamp", disponible avec le lien ci-dessous :  
+
+<a href="https://www.garmin.com/fr-FR/software/basecamp/" target="_blank" rel="noopener noreferrer">https://www.garmin.com/fr-FR/software/basecamp/</a>
+
+Pour l'installation rien de particulier à effectuer juste choisir l'emplacement ou vous souhaiter installer le logiciel.  
+
+### Installation de la carte
+
+Pour installer la carte Française VTT, vous pouvez y accéder par le lien suivant :
+
+- <a href="https://openmtbmap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/donate/odbl/download_france_en.html</a>
+
+Ou la carte Française Route :
+
+- <a href="https://www.velomap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener  noreferrer">https://www.velomap.org/donate/odbl/download_france_en.html</a>
+
+Si besoin, vous pouvez consulter le Tuto suivant pour l'installer :
+<a href="https://openmtbmap.org/tutorials/install/" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/tutorials/install/</a>
+
+## 3 - Installation
+
+Après avoir téléchargé le logiciel et la carte, vous pouvez maintenant connecter votre appareil à votre ordinateur si ce n'est pas déjà fait.
+
+!!! note
+
+    Des bruits de connexions/déconnexions peuvent survenir si c'est la première fois que vous branchez l'appareil sur votre ordinateur, je vous conseille de patienter au moins     5 minutes que les cartes par défaut se chargent, avant d'installer la carte sur votre appareil afin d'éviter tout problèmes.
+
+Ensuite, dans le logiciel
+
 <figure markdown="span">
-  ![Image title](../assets/linux/rufus.png){ width="600" }
+  ![Image title](../../assets/linux/grub.png){ width="450" }
 </figure>
 
 ## __4 - Configuration du GRUB__
@@ -60,7 +81,7 @@ menuentry 'Proxmox VE 8.4' {
 ```
 
 <figure markdown="span">
-  ![Image title](../assets/linux/grub.png){ width="450" }
+  ![Image title](../assets/divers/garmin/grub.png){ width="350" }
 </figure>
 il vous faut ensuite modifier le nom de la partition sur laquelle vous voulez démarrer (exemple "hd4" "hd3,msdos1" etc..)
 
