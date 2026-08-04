@@ -10,21 +10,23 @@ hide:
 # Ajout Carte sur Garmin Edge
 ## __1 - Compatibilité__
 
-Il existe 2 versions pour les cartes [openmtbmap]https://openmtbmap.org/ et [velomap]https://www.velomap.org/ :
+Il existe 2 versions pour les cartes [openmtbmap](https://openmtbmap.org/) (Cartes VTT) et [velomap](https://www.velomap.org/) (Cartes Route) :
 
 - Version __unicode__ nécessaire pour afficher plusieurs alphabets sur une même carte.
 - Version __non unicode__ ne peuvent afficher qu'un seul alphabet (par exemple, le cyrillique et le latin), mais pas les deux.
 
-Les appareils Garmin récents ne peuvent pas utiliser les cartes Unicode gratuites (sauf en modifiant le micrologiciel) ; un message « Impossible d’authentifier les cartes » s’affiche généralement au démarrage.
+__Les appareils Garmin récents ne peuvent pas utiliser les cartes Unicode gratuites__ (sauf en modifiant le micrologiciel) ; un message « Impossible d’authentifier les cartes » s’affiche généralement au démarrage.
 
 <div style="page-break-after: always;"></div>
 
-Les appareils Garmin outdoor suivants sont concernés :
+Les appareils Garmin suivants sont concernés :
 
 - Tous les appareils Garmin commercialisés en 2016 et les années suivantes
 - Edge 1000
 
+<div style="page-break-after: always;"></div>
 
+Assurez vous également d'avoir une carte SD d'au moins 16gb sur votre appareil, car par exemple la carte de la France fait environ 4gb. 
 
 ![Image title](../assets/linux/HP_GEN8.png){ align=right }
 J'ai eu besoin d'utiliser cette technique car je possède un HP Microserver Gen 8 qui n'est pas conçu pour démarrer sur le SSD qui est situé dans la baie optique sans passer par le contrôleur RAID intégré.
