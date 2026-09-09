@@ -174,6 +174,19 @@ ssh test
 ```
 
 ## __4 - Divers__
+### Ajout d'un utilisateur au groupe `sudo`
+Dans un terminal, tapez la commande suivante :
+```
+su -
+```
+Puis, remplacer `votre_nom_utilisateur` par l'utilisateur que vous voulez ajouter au groupe `sudo`  
+```
+adduser votre_nom_utilisateur sudo
+```
+Pour finir, redémarrer votre système :
+```
+systemctl reboot
+```
 ### Authentification du SSH avec l'utilisateur `root`
 
 ```
