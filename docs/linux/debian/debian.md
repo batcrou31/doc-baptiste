@@ -6,7 +6,7 @@ hide:
   - footer
 ---
 
-# Config Debian 12/13
+# Configuration 12/13
 ## __1 - Configuration Réseau__
 ### Ajout d'une IP fixe
 Pour basculer la machine en adresse IP fixe, il faut modifier son interface.
