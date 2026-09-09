@@ -51,7 +51,7 @@ nameserver 192.168.1.254
 
 Contenu du fichier :
 <figure markdown="span">
-  ![Image title](../assets/linux/resolv.png){ width="800" }
+  ![Image title](../../assets/linux/resolv.png){ width="800" }
 </figure>
 
 !!! note "Information importante"
@@ -124,7 +124,7 @@ nano /etc/apt/sources.list
 il faut rajouter un `#` avant le `deb cdrom:` :
 
 <figure markdown="span">
-  ![Image title](../assets/linux/sup.png){ width="800" }
+  ![Image title](../../assets/linux/sup.png){ width="800" }
 </figure>
 
 ## __3 - Création de certificat SSH__
@@ -137,7 +137,7 @@ entrer la commande suivante :
 ssh-keygen -t rsa -b 2048 
 ```
 <figure markdown="span">
-  ![Image title](../assets/linux/certif.png){ width="800" }
+  ![Image title](../../assets/linux/certif.png){ width="800" }
 </figure>
 
 Il faut ensuite spécifier :
@@ -159,7 +159,7 @@ nano authorized_keys
 ```
 Il faut ensuite retourner dans le dossier ".ssh" sur l'hôte Windows et créer un fichier "config"
 <figure markdown="span">
-  ![Image title](../assets/linux/certif-1.png){ width="600" }
+  ![Image title](../../assets/linux/certif-1.png){ width="600" }
 </figure>
 Contenu du fichier :
 ```
@@ -186,7 +186,7 @@ PermitRootLogin yes
 ```
 
 <figure markdown="span">
-  ![Image title](../assets/linux/rootlog.png){ width="800" }
+  ![Image title](../../assets/linux/rootlog.png){ width="800" }
 </figure>
 
 pour finir, redémarer le service ssh :
