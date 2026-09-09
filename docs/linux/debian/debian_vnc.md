@@ -22,5 +22,5 @@ sudo apt update
 sudo apt install tigervnc-standalone-server tigervnc-common dbus-x11 -y
 ```
 <figure markdown="span">
-  ![Image title](../../assets/linux/debian/debian_vnc/VNC-1){ width="700" }
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-1.PNG){ width="700" }
 </figure>
