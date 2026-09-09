@@ -22,5 +22,15 @@ sudo apt update
 sudo apt install tigervnc-standalone-server tigervnc-common dbus-x11 -y
 ```
 <figure markdown="span">
-  ![Image title](../../assets/linux/debian/debian_vnc/VNC-1.PNG){ width="700" }
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-1.PNG){ width="800" }
+</figure>
+Maintenant il faut définir un mot de passe avec la commande suivante :
+```
+vncpasswd
+```
+!!! note
+    Le maximum est de 8 caractères, il est également possible de définir un mot de passe de lecture seule
+
+<figure markdown="span">
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-2.PNG){ width="800" }
 </figure>
