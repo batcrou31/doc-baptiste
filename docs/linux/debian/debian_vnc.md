@@ -66,15 +66,67 @@ vncserver :1 -localhost no -geometry 1920x1080 -depth 24
 ??? note
 
     - `:1` correspond au port `5901` (:1 = 5900+1, :2 = 5900+2, etc...)
-    - Ajustez `-geometry` à la résolution voulue
     - l'argument `-localhost no` autorise les connexions distantes
+    - Ajustez `-geometry` à la résolution voulue
+    
 
 Dans le client VNC de votre choix, entrez l'adresse IP ainsi que l'identifiant (Nom de la machine par exemple).
 <figure markdown="span">
-  ![Image title](../../assets/linux/debian/debian_vnc/VNC-3.PNG){ width="650" }
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-3.PNG){ width="350" }
+</figure>
+
+Accepter le message d'avertissement suivant :
+
+<figure markdown="span">
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-4.PNG){ width="350" }
+</figure>
+
+Puis, entrez le mot de passe créé précédemment :
+
+<figure markdown="span">
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-5.PNG){ width="350" }
+</figure>
+
+Résultat : 
+
+<figure markdown="span">
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-7.PNG){ width="700" }
 </figure>
 
 La commande suivante est pour arrêter le server VNC :
 ```
 vncserver -kill :1
+```
+
+### Création du service systemd
+Création du fichier `/etc/systemd/system/vncserver@.service`
+```
+sudo nano /etc/systemd/system/vncserver@.service
+```
+Contenu du fichier `vncserver@.service` :
+``` ini
+[Unit]
+Description=Remote desktop service (VNC) - %i
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=NOM_D'UTILISATEUR
+WorkingDirectory=/home/NOM_D'UTILISATEUR
+PIDFile=/home/TON_USER/.vnc/%H:%i.pid
+ExecStartPre=-/usr/bin/vncserver -kill :%i > /dev/null 2>&1
+ExecStart=/usr/bin/vncserver :%i -localhost no -geometry 1920x1080 -depth 24 -fg
+ExecStop=/usr/bin/vncserver -kill :%i
+
+[Install]
+WantedBy=multi-user.target
+```
+!!! note
+    Pensez à remplacer `NOM_D'UTILISATEUR` par l'utilisateur de la session VNC
+    
+Activation/démarrage du service créé précédemment
+
+```
+sudo systemctl daemon-reload
+sudo systemctl enable --now vncserver@1.service
 ```
