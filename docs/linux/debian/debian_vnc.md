@@ -10,14 +10,14 @@ hide:
 
 ## 1 - Prérequis
 
-- Un système Debian 12 ou 13 avec un <a href="https://www.xfce.org/" target="_blank" rel="noopener noreferrer">environnement de bureau Xfce/</a>
+- Un système Debian 12 ou 13 avec un <a href="https://www.xfce.org/" target="_blank" rel="noopener noreferrer">environnement de bureau Xfce</a>
 - Une Connexion SSH
 
 ## 2 - Installation
 
 ### Installation des paquets
 Mises à jour/installation des paquets de TigerVNC :
-```
+``` bash
 sudo apt update
 sudo apt install tigervnc-standalone-server tigervnc-common dbus-x11 -y
 ```
@@ -28,7 +28,7 @@ sudo apt install tigervnc-standalone-server tigervnc-common dbus-x11 -y
 ## 3 - Configuration
 ### Définition d'un mot de passe VNC
 Maintenant il faut définir un mot de passe avec la commande suivante :
-```
+``` bash
 vncpasswd
 ```
 !!! note
@@ -40,7 +40,7 @@ vncpasswd
 
 ### Configuration du lancement XFCE dans VNC
 Création/édition du fichier `xstartup` :
-```
+``` bash
 mkdir -p ~/.vnc
 nano ~/.vnc/xstartup
 ```
@@ -54,13 +54,13 @@ exec startxfce4
 ```
 Puis il faut rendre le fichier exécutable :
 
-```
+``` bash
 chmod +x ~/.vnc/xstartup
 ```
 
 ### Test du serveur
 Toujours dans le terminal, entrez la commande suivante :
-```
+``` bash
 vncserver :1 -localhost no -geometry 1920x1080 -depth 24
 ```
 
@@ -95,13 +95,13 @@ Résultat :
 </figure>
 
 La commande suivante est pour arrêter le server VNC :
-```
+``` bash
 vncserver -kill :1
 ```
 
 ### Création du service systemd
 Création du fichier `/etc/systemd/system/vncserver@.service`
-```
+``` bash
 sudo nano /etc/systemd/system/vncserver@.service
 ```
 Contenu du fichier `vncserver@.service` :
