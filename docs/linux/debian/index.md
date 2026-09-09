@@ -6,4 +6,6 @@ hide:
   - footer
 ---
 
+# Présentation
+
 Debian est un système d’exploitation libre basé sur Linux, connu pour sa stabilité, sa sécurité et sa fiabilité.
