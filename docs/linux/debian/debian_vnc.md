@@ -72,25 +72,25 @@ vncserver :1 -localhost no -geometry 1920x1080 -depth 24
 
 Dans le client VNC de votre choix, entrez l'adresse IP ainsi que l'identifiant (Nom de la machine par exemple).
 <figure markdown="span">
-  ![Image title](../../assets/linux/debian/debian_vnc/VNC-3.PNG){ width="350" }
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-3.PNG){ width="450" }
 </figure>
 
 Accepter le message d'avertissement suivant :
 
 <figure markdown="span">
-  ![Image title](../../assets/linux/debian/debian_vnc/VNC-4.PNG){ width="350" }
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-4.PNG){ width="450" }
 </figure>
 
 Puis, entrez le mot de passe créé précédemment :
 
 <figure markdown="span">
-  ![Image title](../../assets/linux/debian/debian_vnc/VNC-5.PNG){ width="350" }
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-5.PNG){ width="450" }
 </figure>
 
 Résultat : 
 
 <figure markdown="span">
-  ![Image title](../../assets/linux/debian/debian_vnc/VNC-7.PNG){ width="700" }
+  ![Image title](../../assets/linux/debian/debian_vnc/VNC-7.PNG){ width="800" }
 </figure>
 
 La commande suivante est pour arrêter le server VNC :
