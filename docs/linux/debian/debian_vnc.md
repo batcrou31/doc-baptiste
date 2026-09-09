@@ -25,7 +25,8 @@ sudo apt install tigervnc-standalone-server tigervnc-common dbus-x11 -y
   ![Image title](../../assets/linux/debian/debian_vnc/VNC-1.PNG){ width="800" }
 </figure>
 
-## Définition d'un mot de passe VNC
+## 3 - Configuration
+### Définition d'un mot de passe VNC
 Maintenant il faut définir un mot de passe avec la commande suivante :
 ```
 vncpasswd
