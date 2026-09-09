@@ -18,7 +18,7 @@ nano /etc/network/interfaces
 ```
 Contenu du fichier interfaces :
 <figure markdown="span">
-  ![Image title](../assets/linux/inter.png){ width="800" }
+  ![Image title](../../assets/linux/inter.png){ width="800" }
 </figure>
 Il sufit de changer le mode "dhcp" en "static" puis d'ajouter :
 ```
