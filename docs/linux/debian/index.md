@@ -13,7 +13,7 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-hammer:{ .lg .middle } __Set up in 5 minutes__
+-   :fontawesome-solid-download:{ .lg .middle } __Set up in 5 minutes__
 
     ---
 
