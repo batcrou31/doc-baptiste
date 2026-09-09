@@ -11,15 +11,16 @@ hide:
 
 Debian est un système d’exploitation libre basé sur Linux, connu pour sa stabilité, sa sécurité et sa fiabilité.
 
+---
+
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-download:{ .lg .middle } __Set up in 5 minutes__
+-   :fontawesome-solid-download:{ .lg .middle } Téléchargement
 
     ---
 
-    Install [`zensical`](#) with [`pip`](#) and get up
-    and running in minutes
-
+    Iso CD/DVD de Debian : <a href="https://www.debian.org/CD/http-ftp/" target="_blank" rel="noopener noreferrer">www.debian.org/CD/http-ftp/</a>
+                                            
     [:octicons-arrow-right-24: Getting started](#)
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
