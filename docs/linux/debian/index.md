@@ -13,11 +13,11 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-download:{ .lg .middle } Téléchargement (Site officiel)
+-   :fontawesome-solid-download:{ .lg .middle } Téléchargement (Site officiel) 
 
     ---
 
-    ISO CD/DVD de Debian : <a href="https://www.debian.org/CD/http-ftp/" target="_blank" rel="noopener noreferrer">debian.org/CD/http-ftp/</a>                                         
+    ISO CD/DVD de Debian : <a href="https://www.debian.org/CD/http-ftp/" target="_blank" rel="noopener noreferrer">debian.org/CD/http-ftp/ :fontawesome-solid-up-right-from-square:</a>                                         
 
 -   :fontawesome-solid-network-wired:{ .lg .middle } Téléchargement (Miroir FTP)
 
