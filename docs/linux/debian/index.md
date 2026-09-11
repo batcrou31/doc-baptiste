@@ -17,13 +17,13 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 
     ---
 
-    ISO CD/DVD de Debian : <a href="https://www.debian.org/CD/http-ftp/" target="_blank" rel="noopener noreferrer">debian.org/CD/http-ftp/ :fontawesome-solid-up-right-from-square:</a>                                         
+    ISO CD/DVD de Debian : <a href="https://www.debian.org/CD/http-ftp/" target="_blank" rel="noopener noreferrer">debian.org/CD/http-ftp/ :fontawesome-solid-arrow-up-right-from-square:</a>                                         
 
 -   :fontawesome-solid-network-wired:{ .lg .middle } Téléchargement (Miroir FTP)
 
     ---
 
-    ISO CD/DVD de Debian : <a href="https://miroir.univ-lorraine.fr/debian-cd/" target="_blank" rel="noopener noreferrer">miroir.univ-lorraine.fr/debian-cd/ :fontawesome-solid-up-right-from-square:</a>  
+    ISO CD/DVD de Debian : <a href="https://miroir.univ-lorraine.fr/debian-cd/" target="_blank" rel="noopener noreferrer">miroir.univ-lorraine.fr/debian-cd/ :fontawesome-solid-arrow-up-right-from-square:</a>  
 
 </div>
 
