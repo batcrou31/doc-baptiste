@@ -8,6 +8,12 @@ hide:
 
 # FOG 
 
+<a href="https://fogproject.org/" target="_blank" rel="noopener noreferrer">FOG</a> (Free and Open-source Ghost) est une solution libre de déploiement et de clonage de postes en réseau.
+
+## Prérequis
+
+-  [:fontawesome-solid-arrow-right: Configuration de base](/debian/debian/#configuration-de-base)
+
 ## 1 - Installation de FOG
 
 ### Installation/décompression du package
