@@ -10,11 +10,12 @@ hide:
 
 <a href="https://fogproject.org/" target="_blank" rel="noopener noreferrer">FOG</a> (Free and Open-source Ghost) est une solution libre de déploiement et de clonage de postes en réseau.
 
-## Prérequis
+## 1 -Prérequis
 
--  [:fontawesome-solid-arrow-right: Configuration de base](/debian/debian/#configuration-de-base)
+- Un serveur Debian 12/13 + [:fontawesome-solid-arrow-right: Configuration de base](/linux/debian/debian/#configuration-de-base)
+- Serveur DHCP (si vous ne souhaitez pas utiliser celui de FOG) [:fontawesome-solid-arrow-right: ISC-DHCP](/linux/isc-dhcp/#isc-dhcp)
 
-## 1 - Installation de FOG
+## 2 - Installation de FOG
 
 ### Installation/décompression du package
 
@@ -114,7 +115,7 @@ Une fois l'installation terminé, il reste plus qu'a se connecter avec les ident
   ![Image title](../assets/linux/fog/FOG-7.png){ width="500" }
 </figure>
 
-## 2 - Configuration de FOG
+## 3 - Configuration de FOG
 
 ### Création d'un utilisateur
 Pour créer un nouvelle utilisateur, il faut se diriger dans l'onglet `User > Create New User`.
@@ -147,7 +148,7 @@ Ensuite, il faut associer l'image créer à la machine :
   ![Image title](../assets/linux/fog/FOG-IMG3.png){ width="600" }
 </figure>
 
-## 3 - Sources
+## 4 - Sources
 
 - <a href="https://docs.fogproject.org/en/latest/" target="_blank" rel="noopener noreferrer">docs.fogproject.org</a>
 - <a href="https://docs.fogproject.org/en/1.5.9/" target="_blank" rel="noopener noreferrer">docs.fogproject.org (old)</a>
