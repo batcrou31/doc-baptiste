@@ -1,5 +1,5 @@
 ---
-icon: material/plus
+icon: fontawesome/solid/map
 created: 2026-08-04
 modified: 2026-08-04
 hide:
