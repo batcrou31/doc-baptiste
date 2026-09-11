@@ -1,7 +1,6 @@
 ---
 icon: material/link
 hide:
-  - navigation
   - toc
   - path
   - footer
@@ -9,11 +8,16 @@ hide:
 
 # Liens utiles
 
-- <a href="https://www.pc2s.fr/" target="_blank" rel="noopener noreferrer">pc2s</a>
-- <a href="https://www.it-connect.fr/" target="_blank" rel="noopener noreferrer">it-connect</a>
+## Tuto Informatique
+- <a href="https://www.pc2s.fr/" target="_blank" rel="noopener noreferrer">pc2s.fr</a>
+- <a href="https://www.it-connect.fr/" target="_blank" rel="noopener noreferrer">it-connect.fr</a>
 
-<div style="page-break-after: always;"></div>
+## Forums
 
----
+- <a href="https://www.tenforums.com/" target="_blank" rel="noopener noreferrer">tenforums.com</a>
+- <a href="https://www.reddit.com/r/sysadmin/" target="_blank" rel="noopener noreferrer">reddit.com/r/sysadmin/</a>
 
-Vous pouvez me contacter sur discord :simple-discord: `sl_wz`
+## Autres
+
+- <a href="https://community-scripts.org/scripts" target="_blank" rel="noopener noreferrer">community-scripts.org/scripts</a>
+
