@@ -6,7 +6,7 @@ hide:
   - footer
 ---
 
-# Configuration 12/13
+# Configuration de base
 ## __1 - Configuration Réseau__
 ### Ajout d'une IP fixe
 Pour basculer la machine en adresse IP fixe, il faut modifier son interface.
