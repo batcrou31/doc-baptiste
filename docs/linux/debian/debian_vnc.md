@@ -82,6 +82,9 @@ Accepter le message d'avertissement suivant :
   ![Image title](../../assets/linux/debian/debian_vnc/VNC-4.PNG){ width="450" }
 </figure>
 
+!!! Attention
+    VNC n'est pas chiffré par défaut, pour un accès distant via Internet vous pouvez utiliser un VPN héberger en local ou mettre en place un bastion comme <a href="https://guacamole.apache.org/" target="_blank" rel="noopener noreferrer">Apache Guacamole</a>.
+
 Puis, entrez le mot de passe créé précédemment :
 
 <figure markdown="span">
