@@ -38,7 +38,7 @@ gateway <adresse>
 !!! warning "Attention"
     Manupulation déjà effectué dans la configuration ci-dessus sur debian 12
     <div style="page-break-after: always;"></div>
-    [:octicons-arrow-right-24: Lien vers la suite](../debian/debian/#configuration-de-base)
+    [:octicons-arrow-right-24: Lien vers la suite](#2-ajout-des-depots-de-mise-a-jour)
 Ensuite, pour modifier le serveur DNS il faut aller modifier le fichier "resolv.conf"
 ```
 nano /etc/resolv.conf 
