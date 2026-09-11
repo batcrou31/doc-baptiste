@@ -91,7 +91,7 @@ Puis, entrez le mot de passe créé précédemment :
   ![Image title](../../assets/linux/debian/debian_vnc/VNC-5.PNG){ width="450" }
 </figure>
 
-Résultat : 
+Résultat dans VNC Viewer : 
 
 <figure markdown="span">
   ![Image title](../../assets/linux/debian/debian_vnc/VNC-7.PNG){ width="800" }
