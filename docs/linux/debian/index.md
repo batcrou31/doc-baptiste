@@ -23,7 +23,7 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 
     ---
 
-    ISO CD/DVD de Debian : <a href="https://miroir.univ-lorraine.fr/debian-cd/" target="_blank" rel="noopener noreferrer">miroir.univ-lorraine.fr/debian-cd/</a>  
+    ISO CD/DVD de Debian : <a href="https://miroir.univ-lorraine.fr/debian-cd/" target="_blank" rel="noopener noreferrer">miroir.univ-lorraine.fr/debian-cd/ :fontawesome-solid-up-right-from-square:</a>  
 
 </div>
 
