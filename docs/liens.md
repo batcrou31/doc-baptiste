@@ -1,6 +1,7 @@
 ---
 icon: material/link
 hide:
+  - navigation
   - toc
   - path
   - footer
