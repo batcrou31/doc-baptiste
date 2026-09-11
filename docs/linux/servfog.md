@@ -10,7 +10,7 @@ hide:
 
 <a href="https://fogproject.org/" target="_blank" rel="noopener noreferrer">FOG</a> (Free and Open-source Ghost) est une solution libre de déploiement et de clonage de postes en réseau.
 
-## 1 -Prérequis
+## 1 - Prérequis
 
 - Un serveur Debian 12/13 [:fontawesome-solid-arrow-right: Configuration de base](/linux/debian/debian/#configuration-de-base)
 - Serveur DHCP (si vous ne souhaitez pas utiliser celui de FOG) [:fontawesome-solid-arrow-right: ISC-DHCP](/linux/isc-dhcp/#isc-dhcp)
