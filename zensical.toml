@@ -352,5 +352,13 @@ custom_checkbox = true
 [project.markdown_extensions]
 tables = {}
 
+[[project.extra.social]]
+icon = "fontawesome/brands/discord"
+link = "https://discord.com/users/925729438790995998"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/in/baptiste-crouvizier-8485a43b0"
+
 [project.extra]
 generator = false
