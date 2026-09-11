@@ -31,16 +31,11 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 
 ## Prérequis
 
-### Debian en mode `Terminal`
-| Composant     | Minimum |
-| ------------- | ------- |
-| Processeur    | 1 cœur  |
-| Mémoire RAM   | 512 Mo  |
-| Espace disque |  5 Go   |
+     
+| Composant         | Debian en mode `terminal` | Debian en mode `interface graphique` (Xfce) |
+| ----------------- | ----------------------------- | ------------------------------------- |
+| **Processeur**    | 1 cœur                | 2 cœurs                       |
+| **Mémoire RAM**   | 256 - 512 Mo                        | 2 - 4 Go                                  |
+| **Espace disque** | 5 Go                         | 20 - 35 Go                                 |
 
-### Debian en mode `Bureau` (Xfce)
-| Composant     | Minimum         |
-| ------------- | --------------- |
-| Processeur    | 2 cœurs         |
-| Mémoire RAM   | 2 - 4 Go        |
-| Espace disque | 20 - 35 Go      |
+
