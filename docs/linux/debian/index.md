@@ -28,3 +28,10 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 |  Processeur   |    :lucide-check: Fetch resource     |                                      
 |    Mémoire    | :lucide-check-check: Update resource |                                      
 | Espace disque |      :lucide-x: Delete resource      |                                      
+
+
+| Method   | Description                          |
+| -------- | ------------------------------------ |
+| `GET`    | :lucide-check: Fetch resource        |
+| `PUT`    | :lucide-check-check: Update resource |
+| `DELETE` | :lucide-x: Delete resource           |
