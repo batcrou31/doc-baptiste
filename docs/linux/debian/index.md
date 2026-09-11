@@ -13,25 +13,34 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-download:{ .lg .middle } Téléchargement
+-   :fontawesome-solid-download:{ .lg .middle } Téléchargement (Site officiel)
 
     ---
 
     ISO CD/DVD de Debian : <a href="https://www.debian.org/CD/http-ftp/" target="_blank" rel="noopener noreferrer">www.debian.org/CD/http-ftp/</a>                                            
 
+-   :fontawesome-solid-network-wired></i>:{ .lg .middle } Téléchargement (Miroir FTP)
+
+    ---
+
+    ISO CD/DVD de Debian : <a href="https://miroir.univ-lorraine.fr/debian-cd/" target="_blank" rel="noopener noreferrer">miroir.univ-lorraine.fr/debian-cd/</a>  
+
 </div>
+
+
 
 ## Prérequis
 
-|               Sans interface graphique               |                                      
-| :-----------: | :----------------------------------: | 
-|  Processeur   |    :lucide-check: Fetch resource     |                                      
-|    Mémoire    | :lucide-check-check: Update resource |                                      
-| Espace disque |      :lucide-x: Delete resource      |                                      
+### Debian en mode `Terminal`
+| Composant     | Minimum |
+| ------------- | ------- |
+| Processeur    | 1 cœur  |
+| Mémoire RAM   | 512 Mo  |
+| Espace disque |  5 Go   |
 
-
-| Method   | Description                          |
-| -------- | ------------------------------------ |
-| `GET`    | :lucide-check: Fetch resource        |
-| `PUT`    | :lucide-check-check: Update resource |
-| `DELETE` | :lucide-x: Delete resource           |
+### Debian en mode `Bureau` (Xfce)
+| Composant     | Minimum         |
+| ------------- | --------------- |
+| Processeur    | 2 cœurs         |
+| Mémoire RAM   | 2 - 4 Go        |
+| Espace disque | 20 - 35 Go      |
