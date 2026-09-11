@@ -10,7 +10,7 @@ hide:
 
 ## 1 - Prérequis
 
-- Un système Debian 12 ou 13 avec un <a href="https://www.xfce.org/" target="_blank" rel="noopener noreferrer">environnement de bureau Xfce :fontawesome-solid-up-right-from-square:</a>
+- Un système Debian 12 ou 13 avec un <a href="https://www.xfce.org/" target="_blank" rel="noopener noreferrer">environnement de bureau Xfce :fontawesome-solid-arrow-up-right-from-square:</a>
 - Une Connexion SSH
 
 ## 2 - Installation
@@ -83,7 +83,7 @@ Accepter le message d'avertissement suivant :
 </figure>
 
 !!! warning "Attention"
-    VNC n'est pas chiffré par défaut, pour un accès distant via internet vous pouvez utiliser un VPN héberger en local ou mettre en place un bastion comme <a href="https://guacamole.apache.org/" target="_blank" rel="noopener noreferrer">Apache Guacamole :fontawesome-solid-up-right-from-square:</a>.
+    VNC n'est pas chiffré par défaut, pour un accès distant via internet vous pouvez utiliser un VPN héberger en local ou mettre en place un bastion comme <a href="https://guacamole.apache.org/" target="_blank" rel="noopener noreferrer">Apache Guacamole :fontawesome-solid-arrow-up-right-from-square:</a>.
 
 Puis, entrez le mot de passe créé précédemment :
 
