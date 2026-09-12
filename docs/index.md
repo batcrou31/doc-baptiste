@@ -23,3 +23,14 @@ Bienvenue sur ma documentation !
 | :material-network: **[Réseau](/réseau/keepass_xc/)** | Configurations, commandes et autres... |
 
 <div class="wavy-footer"></div>
+
+<section>
+  <div class="wave">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="content">
+    <h2>Wavy Animation</h2>
+  </div>
+</section>
