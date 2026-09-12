@@ -4,7 +4,7 @@ icon: selfhst/crowdsecd
 
 # Plugin Crowdsec
 
-<a href="https://www.crowdsec.net/" target="_blank" rel="noopener noreferrer">CrowdSec</a> est un outil de cybersécurité open source qui protège les serveurs et applications contre les attaques automatiques (bruteforce SSH, scans, bots, DDoS, etc.).
+<a href="https://www.crowdsec.net/" target="_blank" rel="noopener noreferrer">CrowdSec :fontawesome-solid-arrow-up-right-from-square:</a> est un outil de cybersécurité open source qui protège les serveurs et applications contre les attaques automatiques (bruteforce SSH, scans, bots, DDoS, etc.).
 <div style="page-break-after: always;"></div>
 Le principe est simple :
 <div style="page-break-after: always;"></div>
@@ -70,7 +70,7 @@ networks:
           gateway: 172.25.0.1
 ```
 
-1.  Liste des collections disponible : <a href="https://app.crowdsec.net/hub/collections" target="_blank" rel="noopener noreferrer">app.crowdsec.net/hub/collections</a>
+1.  Liste des collections disponible : <a href="https://app.crowdsec.net/hub/collections" target="_blank" rel="noopener noreferrer">app.crowdsec.net/hub/collections :fontawesome-solid-arrow-up-right-from-square:</a>
 
 ## 2 - Configuration
 ### Configuration du Bouncer sur SWAG
@@ -116,7 +116,7 @@ time="2026-04-23T12:19:02Z" level=info msg="Adding file /var/log/nginx/error.log
 ```
 ### Lier son instance à l'app Crowdsec
 
-Tout d'abord, Aller sur le site <a href="https://app.crowdsec.net/" target="_blank" rel="noopener noreferrer">app.crowdsec.net/</a> et créer un compte.
+Tout d'abord, Aller sur le site <a href="https://app.crowdsec.net/" target="_blank" rel="noopener noreferrer">app.crowdsec.net/ :fontawesome-solid-arrow-up-right-from-square:</a> et créer un compte.
 On vous proposera ensuite d'enregistrer une instance à l'aide d'une commande :
 
 ```
