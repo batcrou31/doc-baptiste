@@ -16,8 +16,8 @@ Bienvenue sur ma documentation !
 
 | Domaine | Description |
 |----------|-------------|
-| **[:material-link-variant: Liens Utiles](liens.md)** | Ensemble de liens et ressources utiles pour approfondir les différents sujets abordés. |
-| **[:simple-bookstack: Divers](/divers/garmin/install_carte/)** | Ressources et informations diverses. |
-| **[:simple-docker: Docker](/docker/compose/)** | Documentation dédiée à Docker et à l'administration des conteneurs. |
-| **[:simple-linux: Linux](/linux/debian/)** | Ressources et documentation dédiées à Linux et à son administration. |
-| **[:material-network: Réseau](/réseau/keepass_xc/)** | Configurations, commandes et autres... |
+| [:material-link-variant: Liens Utiles](liens.md) | Ensemble de liens et ressources utiles pour approfondir les différents sujets abordés. |
+| [:simple-bookstack: Divers](/divers/garmin/install_carte/) | Ressources et informations diverses. |
+| [:simple-docker: Docker](/docker/compose/) | Documentation dédiée à Docker et à l'administration des conteneurs. |
+| [:simple-linux: Linux](/linux/debian/) | Ressources et documentation dédiées à Linux et à son administration. |
+| [:material-network: Réseau](/réseau/keepass_xc/) | Configurations, commandes et autres... |
