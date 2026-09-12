@@ -6,7 +6,7 @@ hide:
   - footer
 ---
 
-# Gestionnaire de mots de passe
+# KeePassXC
 
 ## 1 - Présentation
 
