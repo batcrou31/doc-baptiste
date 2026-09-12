@@ -8,25 +8,21 @@ hide:
 
 
 # Carte Garmin Edge
-## 1 - Compatibilité
+## 1 - Les cartes
 
-Il existe 2 versions pour les cartes <a href="https://openmtbmap.org/" target="_blank" rel="noopener noreferrer">openmtbmap</a> (Cartes VTT) et <a href="https://www.velomap.org/" target="_blank" rel="noopener noreferrer">velomap</a> (Cartes Route) :
+Il existe 2 versions pour les cartes <a href="https://openmtbmap.org/" target="_blank" rel="noopener noreferrer">openmtbmap :fontawesome-solid-arrow-up-right-from-square:</a> (Carte VTT) et <a href="https://www.velomap.org/" target="_blank" rel="noopener noreferrer">velomap :fontawesome-solid-arrow-up-right-from-square:</a> (Carte Route). Choisissez celle qui convient à votre pratique.
 
-- Version __unicode__ nécessaire pour afficher plusieurs alphabets sur une même carte.
-- Version __non unicode__ ne peuvent afficher qu'un seul alphabet (par exemple, le cyrillique et le latin), mais pas les deux.
-
-__Les appareils Garmin récents ne peuvent pas utiliser les cartes Unicode gratuites__ (sauf en modifiant le micrologiciel) ; un message « Impossible d’authentifier les cartes » s’affiche généralement au démarrage.
+!!! note
+    Toutes les manipulations sont identiques pour les __2 cartes__.
 
 <div style="page-break-after: always;"></div>
 
-Les appareils Garmin suivants sont concernés :
+Compatibilité des appareils :
 
 - Tous les appareils Garmin commercialisés en 2016 et les années suivantes
 - Edge 1000
 
-<div style="page-break-after: always;"></div>
-
-Assurez vous également d'avoir une carte SD d'au moins 16gb sur votre appareil, car par exemple la carte de la France fait environ 4gb. 
+Assurez-vous également d'avoir une carte SD d'au moins 16gb sur votre appareil, car par exemple la carte de la France fait environ 4gb. 
 
 ---
 
@@ -34,24 +30,24 @@ Assurez vous également d'avoir une carte SD d'au moins 16gb sur votre appareil,
 
 ### Installation de BaseCamp
 
-Pour Installer une carte il vous faut obligatoirement télécharger la dernière version du logiciel Garmin "BaseCamp", disponible avec le lien ci-dessous :  
+Pour Installer une carte il vous faut obligatoirement télécharger la dernière version du logiciel <a href="https://www.garmin.com/fr-FR/software/basecamp/" target="_blank" rel="noopener noreferrer">Garmin BaseCamp :fontawesome-solid-arrow-up-right-from-square:</a>.  
 
-<a href="https://www.garmin.com/fr-FR/software/basecamp/" target="_blank" rel="noopener noreferrer">https://www.garmin.com/fr-FR/software/basecamp/</a>
+<div style="page-break-after: always;"></div>
 
 Pour l'installation rien de particulier à effectuer juste choisir l'emplacement ou vous souhaiter installer le logiciel.  
 
 ### Installation de la carte
 
-Pour installer la carte Française VTT, vous pouvez y accéder par le lien suivant :
+Pour installer la carte Française de VTT, vous pouvez y accéder par le lien suivant :
 
-- <a href="https://openmtbmap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/donate/odbl/download_france_en.html</a>
+- <a href="https://openmtbmap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/donate/odbl/download_france_en.html :fontawesome-solid-arrow-up-right-from-square:</a>
 
 Ou la carte Française Route :
 
-- <a href="https://www.velomap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener  noreferrer">https://www.velomap.org/donate/odbl/download_france_en.html</a>
+- <a href="https://www.velomap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener  noreferrer">https://www.velomap.org/donate/odbl/download_france_en.html :fontawesome-solid-arrow-up-right-from-square:</a>
 
 Si besoin, vous pouvez consulter le Tuto suivant pour l'installer :
-<a href="https://openmtbmap.org/tutorials/install/" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/tutorials/install/</a>
+<a href="https://openmtbmap.org/tutorials/install/" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/tutorials/install/ :fontawesome-solid-arrow-up-right-from-square:</a>
 
 ## 3 - Installation
 
@@ -59,9 +55,9 @@ Après avoir téléchargé le logiciel et la carte, vous pouvez maintenant conne
 
 !!! note
 
-    Des bruits de connexions/déconnexions peuvent survenir si c'est la première fois que vous branchez l'appareil sur votre ordinateur, je vous conseille de patienter au moins     5 minutes que les cartes par défaut se chargent, avant d'installer la carte sur votre appareil afin d'éviter tout problèmes.
+    Des bruits de connexions/déconnexions peuvent survenir si c'est la première fois que vous branchez l'appareil sur votre ordinateur, je vous conseille de patienter au moins 5 minutes que les cartes par défaut se           chargent, avant d'installer la carte sur votre appareil afin d'éviter tout problèmes.
 
-Une fois dans le logiciel, naviguez dans la section __Carte__ puis sélectionner la carte installer précédemment installé (__openmtbmap_france_xxxxx__) et enfin __Installer les cartes__.
+Une fois dans le logiciel, naviguez dans la section __Carte__ puis sélectionner la carte précédemment installé (__openmtbmap_france_xxxxx__) et enfin __Installer les cartes__.
 
 <figure markdown="span">
   ![Image title](../../assets/divers/garmin/BC-01.PNG){ width="700" }
