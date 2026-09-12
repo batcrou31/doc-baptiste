@@ -2,6 +2,7 @@
 icon: simple/linux
 created: 2026-03-31
 modified: 2026-03-31
+status: deprecated
 hide:
   - footer
 ---
