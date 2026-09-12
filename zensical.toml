@@ -266,7 +266,7 @@ features = [
 # - https://github.com/zensical/ui/tree/master/dist/.icons
 # ----------------------------------------------------------------------------
 [project.theme.icon]
-logo = "lucide/smile"
+logo = "material/coffee"
 
 # ----------------------------------------------------------------------------
 # In the "font" subsection you can configure the fonts used. By default, fonts
