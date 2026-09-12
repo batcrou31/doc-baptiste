@@ -1,5 +1,8 @@
 ---
 icon: simple/docker
+hide:
+  - toc
+  - path
 ---
 
 # Commandes utiles
@@ -42,9 +45,9 @@ networks:
     name: freefilesync
 ```
 
-1.  Pour trouver l'id de l'utilisateur et du groupe faite la commande "id" suivie du nom de votre utilisateur.
+1.  Pour trouver l'ID d'un utilisateur et de son groupe faite la commande "id" suivie du nom de l'utilisateur.
     <div style="page-break-after: always;"></div>
-    (l'utilisateur root est toujours O)
+    (l'utilisateur `root` est toujours O)
 
 ### Sources
 
