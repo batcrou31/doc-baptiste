@@ -44,7 +44,7 @@ Pour installer la carte Française de VTT, vous pouvez y accéder par le lien su
 
 Ou la carte Française Route :
 
-- <a href="https://www.velomap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener  noreferrer">https://www.velomap.org/donate/odbl/download_france_en.html :fontawesome-solid-arrow-up-right-from-square:</a>
+- <a href="https://www.velomap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">https://www.velomap.org/donate/odbl/download_france_en.html :fontawesome-solid-arrow-up-right-from-square:</a>
 
 Si besoin, vous pouvez consulter le Tuto suivant pour l'installer :
 <a href="https://openmtbmap.org/tutorials/install/" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/tutorials/install/ :fontawesome-solid-arrow-up-right-from-square:</a>
