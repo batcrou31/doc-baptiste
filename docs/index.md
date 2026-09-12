@@ -21,3 +21,5 @@ Bienvenue sur ma documentation !
 | :simple-docker: **[Docker](/docker/compose/)** | Documentation dédiée à Docker et à l'administration des conteneurs. |
 | :simple-linux: **[Linux](/linux/debian/)** | Ressources et documentation dédiées à Linux et à son administration. |
 | :material-network: **[Réseau](/réseau/keepass_xc/)** | Configurations, commandes et autres... |
+
+<div class="wavy-footer"></div>
