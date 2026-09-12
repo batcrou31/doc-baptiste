@@ -12,7 +12,7 @@ hide:
 
 Il existe 2 versions pour les cartes <a href="https://openmtbmap.org/" target="_blank" rel="noopener noreferrer">openmtbmap :fontawesome-solid-arrow-up-right-from-square:</a> (Carte VTT) et <a href="https://www.velomap.org/" target="_blank" rel="noopener noreferrer">velomap :fontawesome-solid-arrow-up-right-from-square:</a> (Carte Route). Choisissez celle qui convient à votre pratique.
 
-!!! note
+!!! note "Information importante"
     Toutes les manipulations sont identiques pour les __2 cartes__.
 
 <div style="page-break-after: always;"></div>
@@ -49,11 +49,13 @@ Ou la carte Française Route :
 Si besoin, vous pouvez consulter le Tuto suivant pour l'installer :
 <a href="https://openmtbmap.org/tutorials/install/" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/tutorials/install/ :fontawesome-solid-arrow-up-right-from-square:</a>
 
+---
+
 ## 3 - Installation
 
 Après avoir téléchargé le logiciel et la carte, vous pouvez maintenant connecter votre appareil à votre ordinateur si ce n'est pas déjà fait.
 
-!!! note
+!!! note "Information importante"
 
     Des bruits de connexions/déconnexions peuvent survenir si c'est la première fois que vous branchez l'appareil sur votre ordinateur, je vous conseille de patienter au moins 5 minutes que les cartes par défaut se           chargent, avant d'installer la carte sur votre appareil afin d'éviter tout problèmes.
 
@@ -85,7 +87,7 @@ Vous pouvez maintenant déconnecter votre appareil et l'allumer.
 
 Maintenant il faut changer la carte par défaut par celle que nous venons d'installer, pour ce faire sélectionnez __Menu__ -> __Paramètres__ -> __Profils d'activité__ -> __Sélectionner un profil (VTT, Route etc...)__ -> __Navigation__ -> __Information carte__ puis __openmtbmap_france_xxxxx__.
 
-!!! Attention
+??? note
 
     Garmin a introduit un mode contraste élevé complètement défectueux, qui décolore les couleurs des cartes. Vous pouvez désactiver ce mode en effectuant la modification suivante sous
     __Menu__ -> __Paramètres__ -> __Profils d'activité__ -> __Sélectionnez un profil__ -> __Navigation__ -> __Carte__ -> __Thème de la carte__ -> __CLASSIQUE__
