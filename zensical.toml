@@ -362,6 +362,3 @@ link = "https://www.linkedin.com/in/baptiste-crouvizier-8485a43b0"
 
 [project.extra]
 generator = false
-
-[project.extra.status]
-new = "Recently added"
