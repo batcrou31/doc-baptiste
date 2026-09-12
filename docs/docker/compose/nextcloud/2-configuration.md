@@ -7,8 +7,10 @@ modified: 2026-03-06
 # Configuration
 
 ## 1 - Modification du fichier de configuration
-Navigez dans vers votre fichier de configuration `/home/docker/appdata/nextcloud/config/www/nextcloud/config`.
-<div style="page-break-after: always;"></div>
+Navigez dans vers votre fichier de configuration :
+```
+cd /home/docker/appdata/nextcloud/config/www/nextcloud/config
+```
 
 Puis ouvrez le fichier `config.php`, contenu du fichier :
 
