@@ -7,10 +7,10 @@ hide:
   - footer
 ---
 
-# Acceuil
+# :material-home: Acceuil
 
-Bienvenue sur ma documentation !
+## Bienvenue sur ma documentation !
 
-<div style="page-break-after: always;"></div>
+## :material-rocket-launch: Accès rapide
 
-Vous pouvez trouver des tutos sur différents thèmes comme : la virtualisation, Docker, Linux, et bien plus !
+
