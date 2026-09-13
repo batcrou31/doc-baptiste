@@ -7,7 +7,7 @@ hide:
   - path
 ---
 
-# Présentation
+# :material-file-find: Présentation
 
 <a href="https://proxmox.com/" target="_blank" rel="noopener noreferrer">Proxmox VE :fontawesome-solid-arrow-up-right-from-square:</a> est une solution open source de virtualisation et de gestion d’infrastructures, permettant d’administrer des machines virtuelles (KVM) et des conteneurs (LXC) via une interface web.
 
@@ -30,6 +30,6 @@ hide:
 
 
 
-## Prérequis
+## :octicons-cpu-16: Prérequis
 
-voir <a href="https://proxmox.com/en/products/proxmox-virtual-environment/requirements" target="_blank" rel="noopener noreferrer">proxmox.com/en/products/proxmox-virtual-environment/requirements :fontawesome-solid-arrow-up-right-from-square:</a> 
+Voir <a href="https://proxmox.com/en/products/proxmox-virtual-environment/requirements" target="_blank" rel="noopener noreferrer">proxmox.com/en/products/proxmox-virtual-environment/requirements :fontawesome-solid-arrow-up-right-from-square:</a> 
