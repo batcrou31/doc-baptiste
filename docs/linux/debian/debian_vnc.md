@@ -10,8 +10,8 @@ hide:
 
 ## 1 - Prérequis
 
-- Un système Debian 12 ou 13 avec un <a href="https://www.xfce.org/" target="_blank" rel="noopener noreferrer">environnement de bureau Xfce :fontawesome-solid-arrow-up-right-from-square:</a>
-- Une Connexion SSH
+- Un __système Debian__ 12 ou 13 avec un <a href="https://www.xfce.org/" target="_blank" rel="noopener noreferrer">environnement de bureau Xfce :fontawesome-solid-arrow-up-right-from-square:</a>
+- Une __connexion SSH__
 
 ## 2 - Installation
 
