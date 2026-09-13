@@ -40,14 +40,14 @@ Pour l'installation rien de particulier à effectuer juste choisir l'emplacement
 
 Pour installer la carte Française de VTT, vous pouvez y accéder par le lien suivant :
 
-- <a href="https://openmtbmap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/donate/odbl/download_france_en.html :fontawesome-solid-arrow-up-right-from-square:</a>
+- <a href="https://openmtbmap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">:openmtbmap.org/donate/odbl/download :fontawesome-solid-arrow-up-right-from-square:</a>
 
 Ou la carte Française Route :
 
-- <a href="https://www.velomap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">https://www.velomap.org/donate/odbl/download_france_en.html :fontawesome-solid-arrow-up-right-from-square:</a>
+- <a href="https://www.velomap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">velomap.org/donate/odbl/download :fontawesome-solid-arrow-up-right-from-square:</a>
 
 Si besoin, vous pouvez consulter le Tuto suivant pour l'installer :
-<a href="https://openmtbmap.org/tutorials/install/" target="_blank" rel="noopener noreferrer">https://openmtbmap.org/tutorials/install/ :fontawesome-solid-arrow-up-right-from-square:</a>
+<a href="https://openmtbmap.org/tutorials/install/" target="_blank" rel="noopener noreferrer">openmtbmap.org/tutorials/install/ :fontawesome-solid-arrow-up-right-from-square:</a>
 
 ---
 
