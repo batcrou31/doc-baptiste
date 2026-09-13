@@ -12,8 +12,8 @@ hide:
 
 ## 1 - Prérequis
 
-- Un serveur Debian 12/13 [:fontawesome-solid-arrow-right: Configuration de base](/linux/debian/debian/#configuration-de-base)
-- Serveur DHCP (si vous ne souhaitez pas utiliser celui de FOG) [:fontawesome-solid-arrow-right: ISC-DHCP](/linux/isc-dhcp/#isc-dhcp)
+- Un __serveur Debian__ 12/13 [:fontawesome-solid-arrow-right: Configuration de base](/linux/debian/debian/#configuration-de-base)
+- Un __Serveur DHCP__ (si vous ne souhaitez pas utiliser celui de FOG) [:fontawesome-solid-arrow-right: ISC-DHCP](/linux/isc-dhcp/#isc-dhcp)
 
 ## 2 - Installation de FOG
 
