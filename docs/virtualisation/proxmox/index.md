@@ -1,44 +1,34 @@
 ---
 icon: simple/proxmox
+created: 2026-09-09
+modified: 2026-09-01
+hide:
+  - toc
+  - path
 ---
 
-# Installation de Proxmox
+# Présentation
 
-## 1 - Prérequis
+<a href="https://proxmox.com/" target="_blank" rel="noopener noreferrer">Proxmox VE :fontawesome-solid-arrow-up-right-from-square:</a> est une solution open source de virtualisation et de gestion d’infrastructures, permettant d’administrer des machines virtuelles (KVM) et des conteneurs (LXC) via une interface web.
 
-!!! note "Information Importante"
-    Ces exigences minimales sont données à titre indicatif uniquement et ne doivent pas être utilisées en production.
+<div class="grid cards" markdown>
 
-- Processeur : 64 bits (Intel 64 ou AMD64)
+-   :fontawesome-solid-download:{ .lg .middle } Téléchargement (Site officiel) 
 
-- Processeur/carte mère compatible Intel VT/AMD-V pour une prise en charge complète de la virtualisation KVM
+    ---
 
-- RAM : 1 Go de RAM, plus la RAM supplémentaire nécessaire pour les invités
+    ISO CD/DVD de Proxmox : <a href="https://www.debian.org/CD/http-ftp/" target="_blank" rel="noopener noreferrer">https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso :fontawesome-solid-arrow-up-right-from-square:</a>                                         
 
-- Disque dur
+-   :fontawesome-solid-network-wired:{ .lg .middle } Téléchargement (Miroir FTP)
 
-- Une carte réseau (NIC)
+    ---
 
----
+    ISO CD/DVD de Debian : <a href="https://miroir.univ-lorraine.fr/debian-cd/" target="_blank" rel="noopener noreferrer">https://fr.cdn.proxmox.com/iso/ :fontawesome-solid-arrow-up-right-from-square:</a>  
 
-## 2 - Préparation du support
+</div>
 
-Téléchargez l'image ISO du programme d'installation depuis : https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso
-<div style="page-break-after: always;"></div>
-Pour monter l'ISO sur la clé USB, il est possible d'utiliser [Rufus](https://rufus.ie/) ou [Balena Htcher](https://etcher.balena.io/).
-<div style="page-break-after: always;"></div>
-Exemple avec Rufus :
-<figure markdown="span">
-  ![Image title](../../assets/hyperviseur/proxmox/install/rufus.png){ width="500" }
-</figure>
 
----
 
-## 3 - Installation
+## Prérequis
 
-Veuillez insérer le support d'installation préparé et démarrer à partir de celui-ci.
-<div style="page-break-after: always;"></div>
-Ensuite sélectionner la première option :
-<figure markdown="span">
-  ![Image title](../../assets/hyperviseur/proxmox/install/pve-grub-menu_.png){ width="800" }
-</figure>
+voir <a href="https://proxmox.com/en/products/proxmox-virtual-environment/requirements" target="_blank" rel="noopener noreferrer">https://proxmox.com/en/products/proxmox-virtual-environment/requirements :fontawesome-solid-arrow-up-right-from-square:</a>
