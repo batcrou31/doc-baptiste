@@ -46,7 +46,7 @@ Ou la carte Française Route :
 
 - <a href="https://www.velomap.org/donate/odbl/download_france_en.html" target="_blank" rel="noopener noreferrer">velomap.org/donate/odbl/download :fontawesome-solid-arrow-up-right-from-square:</a>
 
-!!! note "Information"
+!!! info "Information"
 
     Si besoin, vous pouvez consulter le Tuto suivant pour l'installer :
     <a href="https://openmtbmap.org/tutorials/install/" target="_blank" rel="noopener noreferrer">openmtbmap.org/tutorials/install/ :fontawesome-solid-arrow-up-right-from-square:</a>
