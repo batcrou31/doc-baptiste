@@ -17,13 +17,13 @@ hide:
 
     ---
 
-    ISO CD/DVD de Proxmox : <a href="https://www.debian.org/CD/http-ftp/" target="_blank" rel="noopener noreferrer">https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso :fontawesome-solid-arrow-up-right-from-square:</a> 
+    ISO CD/DVD de Proxmox : <a href="https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso" target="_blank" rel="noopener noreferrer">www.proxmox.com/en/downloads/proxmox-virtual-environment/iso :fontawesome-solid-arrow-up-right-from-square:</a> 
 
 -   :fontawesome-solid-network-wired:{ .lg .middle } Téléchargement (Miroir FTP)
 
     ---
 
-    ISO CD/DVD de Debian : <a href="https://miroir.univ-lorraine.fr/debian-cd/" target="_blank" rel="noopener noreferrer">https://fr.cdn.proxmox.com/iso/ :fontawesome-solid-arrow-up-right-from-square:</a>   
+    ISO CD/DVD de Debian : <a href="https://fr.cdn.proxmox.com/iso/" target="_blank" rel="noopener noreferrer">fr.cdn.proxmox.com/iso/ :fontawesome-solid-arrow-up-right-from-square:</a>   
 
 </div>
 
@@ -31,4 +31,4 @@ hide:
 
 ## Prérequis
 
-voir <a href="https://proxmox.com/en/products/proxmox-virtual-environment/requirements" target="_blank" rel="noopener noreferrer">https://proxmox.com/en/products/proxmox-virtual-environment/requirements :fontawesome-solid-arrow-up-right-from-square:</a> 
+voir <a href="https://proxmox.com/en/products/proxmox-virtual-environment/requirements" target="_blank" rel="noopener noreferrer">proxmox.com/en/products/proxmox-virtual-environment/requirements :fontawesome-solid-arrow-up-right-from-square:</a> 
