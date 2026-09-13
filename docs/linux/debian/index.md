@@ -7,7 +7,7 @@ hide:
   - path
 ---
 
-# Présentation
+# :material-file-find: Présentation
 
 Debian est un système d’exploitation libre basé sur Linux, connu pour sa stabilité, sa sécurité et sa fiabilité.
 
@@ -29,7 +29,7 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 
 
 
-## Prérequis
+## :octicons-cpu-16: Prérequis
 
      
 | Composant         | Debian en mode `terminal` | Debian en mode `interface graphique` (Xfce) |
