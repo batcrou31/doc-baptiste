@@ -8,7 +8,7 @@ hide:
 
 # FOG 
 
-<a href="https://fogproject.org/" target="_blank" rel="noopener noreferrer">FOG</a> (Free and Open-source Ghost) est une solution libre de déploiement et de clonage de postes en réseau.
+<a href="https://fogproject.org/" target="_blank" rel="noopener noreferrer">FOG :fontawesome-solid-arrow-up-right-from-square:</a> (Free and Open-source Ghost) est une solution libre de déploiement et de clonage de postes en réseau.
 
 ## 1 - Prérequis
 
