@@ -6,11 +6,11 @@ hide:
 ---
 
 ![Image title](../../../assets/docker/swag/linuxserver.png){ align=right }
-# Présentation
+# :material-file-find: Présentation
 
 <a href="https://github.com/linuxserver/docker-swag" target="_blank" rel="noopener noreferrer">SWAG :fontawesome-solid-arrow-up-right-from-square:</a> (Secure Web Application Gateway) est un conteneur docker créer par linuxserver.io, ce conteneur inclut un serveur web Nginx, un proxy inverse avec prise en charge PHP et un client certbot intégré qui automatise la génération et le renouvellement gratuits des certificats SSL (Let's Encrypt et ZeroSSL). Il inclut également fail2ban pour la prévention des intrusions.
 
-## Prérequis
+## :octicons-cpu-16: Prérequis
 
 - __Docker__ et __Docker Compose__ installé sur sa machine.
 - Conection __SSH__ à votre Serveur/NAS
