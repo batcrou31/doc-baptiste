@@ -23,7 +23,7 @@ hide:
 
     ---
 
-    ISO CD/DVD de Debian : <a href="https://fr.cdn.proxmox.com/iso/" target="_blank" rel="noopener noreferrer">fr.cdn.proxmox.com/iso/ :fontawesome-solid-arrow-up-right-from-square:</a>   
+    ISO CD/DVD de Proxmox : <a href="https://fr.cdn.proxmox.com/iso/" target="_blank" rel="noopener noreferrer">fr.cdn.proxmox.com/iso/ :fontawesome-solid-arrow-up-right-from-square:</a>   
 
 </div>
 
