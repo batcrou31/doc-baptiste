@@ -6,7 +6,7 @@ hide:
 
 # Configuration
 
-## 1 - Création d'une tache de sauvegarde
+## Création d'une tache de sauvegarde
 
 Tout d'abord, il faut se rendre dans l'onglet : `Centre de données > Sauvegarde` puis `Ajouter`.
 <div style="page-break-after: always;"></div>
@@ -47,7 +47,7 @@ Résumé de la tache :
 
 ---
 
-## __2 - Mise en place des notifications avec un Webhook Discord__
+## Mise en place des notifications avec un Webhook Discord
 ### Désactivation de l'envoi de mail par défaut
 Tout d'abord, il faut se rendre dans l'onglet : `Centre de données > Notifications` puis éditer la règle par défaut `mail-to-root` et décocher `Activer` afin de ne plus utiliser l'envoi de mail classique.
 <figure markdown="span">
@@ -113,7 +113,7 @@ Résultat sur Discord :
 
 ---
 
-## __3 - Installation de pilote AMS__
+## Installation de pilote AMS
 Les serveurs HPE ProLiant disposent d'un logiciel complémentaire appelé Agentless Management Service qui permet de faire la liaison entre le système d'exploitation et la consôle d'administration ILO. Et qui par exemple, permet de réduire la vitesse des ventilateurs, voir la température du CPU et autres.
 <div style="page-break-after: always;"></div>
 Téléchargement du package :
