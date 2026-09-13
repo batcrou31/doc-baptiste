@@ -1,3 +1,10 @@
+---
+icon: material/switch
+created: 2026-03-31
+modified: 2026-03-31
+hide:
+  - footer
+---
 
 # Switch 2950
 
