@@ -18,7 +18,7 @@ hide:
     ---
 
     ISO CD/DVD de Proxmox :
-    <a href="https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso" target="_blank">www.proxmox.com/en/downloads/proxmox-virtual-environment/iso</a>
+    <a href="https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso" target="_blank">test</a>
     <a href="https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso" target="_blank" rel="noopener noreferrer">www.proxmox.com/en/downloads/proxmox-virtual-environment/iso :fontawesome-solid-arrow-up-right-from-square:</a>
 
 -   :fontawesome-solid-network-wired:{ .lg .middle } Téléchargement (Miroir FTP)
