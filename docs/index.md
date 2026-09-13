@@ -8,7 +8,16 @@ hide:
 
 # :material-home: Acceuil
 
+<div align="right">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNmZW5sbTB6ZG43empoOWw1NzFmNjd5OTNhMWlvN2xxYWxkZHR4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B4dt6rXq6nABilHTYM/giphy.gif"
+       alt="Animation"
+       width="400">
+</div>
+
 Bienvenue sur ma documentation !
+
+
+
 <div style="page-break-after: always;"></div>
 Étudiant en BTS CIEL, j'ai créé cette documentation afin de regrouper les informations techniques, les procédures et les configurations réalisées dans le cadre de ma formation, stages et de mes projets informatiques.
 
