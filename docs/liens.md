@@ -7,7 +7,7 @@ hide:
   - footer
 ---
 
-# Liens utiles
+# :material-link-variant: Liens utiles
 
 ## Tuto Informatique
 - <a href="https://www.pc2s.fr/" target="_blank" rel="noopener noreferrer">pc2s.fr :fontawesome-solid-arrow-up-right-from-square:</a>
