@@ -9,7 +9,9 @@ hide:
 
 # :material-file-find: Présentation
 
-Debian est un système d’exploitation libre basé sur Linux, connu pour sa stabilité, sa sécurité et sa fiabilité.
+<a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">Debian :fontawesome-solid-arrow-up-right-from-square:</a> est un système d’exploitation libre basé sur Linux, connu pour sa stabilité, sa sécurité et sa fiabilité.
+
+---
 
 <div class="grid cards" markdown>
 
@@ -27,7 +29,7 @@ Debian est un système d’exploitation libre basé sur Linux, connu pour sa sta
 
 </div>
 
-
+---
 
 ## :octicons-cpu-16: Prérequis
 
