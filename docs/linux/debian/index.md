@@ -11,8 +11,6 @@ hide:
 
 <a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">Debian :fontawesome-solid-arrow-up-right-from-square:</a> est un système d’exploitation libre basé sur Linux, connu pour sa stabilité, sa sécurité et sa fiabilité.
 
----
-
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-download:{ .lg .middle } Téléchargement (Site officiel) 
@@ -29,8 +27,6 @@ hide:
 
 </div>
 
----
-
 ## :octicons-cpu-16: Prérequis
 
      
@@ -39,5 +35,3 @@ hide:
 | **Processeur**    | 1 cœur                | 2 cœurs                       |
 | **Mémoire RAM**   | 256 - 512 Mo                        | 2 - 4 Go                                  |
 | **Espace disque** | 5 Go                         | 20 - 35 Go                                 |
-
-
