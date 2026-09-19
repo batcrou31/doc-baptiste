@@ -1,5 +1,5 @@
 ---
-icon: simple/linux
+icon: autres/fog
 created: 2026-03-29
 modified: 2026-03-29
 hide:
