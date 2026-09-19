@@ -25,14 +25,14 @@ Il sufit de changer le mode "dhcp" en "static" puis d'ajouter :
 address <adresse>/<masque>
 gateway <adresse>
 ```
-!!! note "Information importante"
-    Manipulation sur debian 12
+
+??? note "Manipulation sur debian 12"
+
     ```
     address <adresse>/<masque>
     gateway <adresse>
     dns-nameservers <adresse1> <adresse2>
     ```
-<div style="page-break-after: always;"></div>
 
 ### Configuration des serveurs DNS
 !!! warning "Attention"
