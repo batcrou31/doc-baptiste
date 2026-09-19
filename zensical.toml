@@ -45,7 +45,7 @@ Copyright &copy; 2026 Baptiste
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { ":material-home: Home" = "index.md" },
+  { "material/home Acceuil" = "index.md" },
   { ":material-link-variant: Liens Utiles" = "liens.md" },
 ]
 
