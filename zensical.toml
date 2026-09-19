@@ -17,7 +17,7 @@ site_name = "Documentation de Baptiste"
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "Étudiant en BTS CIEL, j'ai créé cette documentation afin de regrouper les informations techniques, les procédures et les configurations réalisées dans le cadre de ma formation, des stages et de mes projets personnels en informatique."
 
 # The site_author attribute. This is used in the HTML head element.
 #
