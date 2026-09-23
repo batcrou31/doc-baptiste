@@ -7,7 +7,7 @@ hide:
 ---
 
 # FOG 
-
+:material-calendar-blank: __29/03/2026__ - :material-calendar-edit: __29/03/2026__
 <a href="https://fogproject.org/" target="_blank" rel="noopener noreferrer">FOG :fontawesome-solid-arrow-up-right-from-square:</a> (Free and Open-source Ghost) est une solution libre de déploiement et de clonage de postes en réseau.
 
 ## 1 - Prérequis
