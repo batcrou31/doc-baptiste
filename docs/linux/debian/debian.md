@@ -7,6 +7,9 @@ hide:
 ---
 
 # Configuration de base
+
+:material-calendar-blank-outline: __01/03/2026__ - :material-calendar-edit: __01/09/2026__
+
 ## __1 - Configuration Réseau__
 ### Ajout d'une IP fixe
 Pour basculer la machine en adresse IP fixe, il faut modifier son interface.
