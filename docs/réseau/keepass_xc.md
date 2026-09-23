@@ -48,4 +48,4 @@ Pour finir sélectionner "Install" afin d'installer l'application :
      ![Image title](../assets/reseau/keepass/KP-05.PNG){ width="350" }
     </figure>
 
-    Il faut installer le package suivant : <a href="https://keepassxc.org/download/" target="_blank" rel="noopener noreferrer">:fontawesome-solid-arrow-right: keepassxc.org/download/</a>
+    Il faut installer le package suivant : <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-c-v14-redistributable" target="_blank" rel="noopener noreferrer">:fontawesome-solid-arrow-right: learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist</a>
