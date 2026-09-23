@@ -19,31 +19,33 @@ Lien de téléchargement de KeePassXC : <a href="https://keepassxc.org/download/
 Pour commancer, il faut sélectionner "Next" :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-01.PNG){ width="500" }
+  ![Image title](../assets/reseau/keepass/KP-01.PNG){ width="600" }
 </figure>
 
 Cochez la case à gauche pour accepter la license, puis sélectionner une fois de plus "Next" :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-02.PNG){ width="500" }
+  ![Image title](../assets/reseau/keepass/KP-02.PNG){ width="600" }
 </figure>
 
 Cochez la case "Create a shortcut on the desktop" si vous souhaitez créer un raccourci sur le bureau :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-03.PNG){ width="500" }
+  ![Image title](../assets/reseau/keepass/KP-03.PNG){ width="600" }
 </figure>
 
 Pour finir sélectionner "Install" afin d'installer l'application :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-04.PNG){ width="500" }
+  ![Image title](../assets/reseau/keepass/KP-04.PNG){ width="600" }
 </figure>
 
 ??? warning Erreur "MSVCP140.dll"
 
-    Si au lancement de KeePassXC vous tomber sur ce message d'erreur :
+    Si au lancement de KeePassXC vous tomber le message d'erreur suivant :
    
     <figure markdown="span">
-     ![Image title](../assets/reseau/keepass/KP-05.PNG){ width="500" }
+     ![Image title](../assets/reseau/keepass/KP-05.PNG){ width="350" }
     </figure>
+
+    Il faut installer le package suivant : <a href="https://keepassxc.org/download/" target="_blank" rel="noopener noreferrer">:fontawesome-solid-arrow-right: keepassxc.org/download/</a>
