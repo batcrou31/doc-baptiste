@@ -7,7 +7,7 @@ hide:
 ---
 
 # Serveur TigerVNC (Xfce)
-:material-calendar-blank: __09/09/2026__ - :material-calendar-edit: __09/09/2026__
+:material-calendar-blank: __09/09/2026__
 ## 1 - Prérequis
 
 - Un __système Debian__ 12 ou 13 avec un <a href="https://www.xfce.org/" target="_blank" rel="noopener noreferrer">environnement de bureau Xfce :fontawesome-solid-arrow-up-right-from-square:</a>
