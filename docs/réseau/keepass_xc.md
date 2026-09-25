@@ -126,6 +126,10 @@ Cochez/décochez les éléments suivants :
 - __Verrouiller les bases de données après une inactivité de 900 s__
 - __Utiliser le service DuckDuckGo pour télécharger les icones de sites web__
 
+<figure markdown="span">
+  ![Image title](../assets/reseau/keepass/KP-12.PNG){ width="800" }
+</figure>
+
 Dans l'onglet __Intégration aux navigateurs__ : 
 
 <div style="page-break-after: always;"></div>
@@ -134,6 +138,10 @@ Cochez les éléments suivants :
 
 - __Activer l'intégration aux navigateurs__
 - __Chrome, Vivaldi, Brave, Chromium__ (sélectionner le ou les navigateurs de votre choix)
+
+<figure markdown="span">
+  ![Image title](../assets/reseau/keepass/KP-13.PNG){ width="800" }
+</figure>
 
 ## 4 - Création d'une entrée
 
