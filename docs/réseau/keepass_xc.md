@@ -98,7 +98,7 @@ Dans l'onglet __Géneral__ :
 
 <div style="page-break-after: always;"></div>
 
-Cochez la case : 
+Cochez les éléments suivants : 
 
 - __Cacher la fenêtre lors de la copie dans le presse-papier__ 
 - __Réduire__ 
@@ -114,4 +114,41 @@ Cochez également :
 
 <figure markdown="span">
   ![Image title](../assets/reseau/keepass/KP-11.PNG){ width="700" }
+</figure>
+
+Dans l'onglet __Sécurité__ : 
+
+<div style="page-break-after: always;"></div>
+
+Cochez/décochez les éléments suivants :
+
+- __Vider le presse-papiers après 30 s__
+- __Verrouiller les bases de données après une inactivité de 900 s__
+- __Utiliser le service DuckDuckGo pour télécharger les icones de sites web__
+
+Dans l'onglet __Intégration aux navigateurs__ : 
+
+<div style="page-break-after: always;"></div>
+
+Cochez les éléments suivants :
+
+- __Activer l'intégration aux navigateurs__
+- __Chrome, Vivaldi, Brave, Chromium__ (sélectionner le ou les navigateurs de votre choix)
+
+## 4 - Création d'une entrée
+
+Sélectionner le symbole __+__ à côté du cadenas dans le panneau horizontal :
+
+<figure markdown="span">
+  ![Image title](../assets/reseau/keepass/KP-14.PNG){ width="800" }
+</figure>
+
+Maintenant donner __un titre__ à cette entrée (ex. Crédit Agricole, Steam, l'équipe etc...) anisi que votre __nom d'utilisateur/Mail__.
+
+<div style="page-break-after: always;"></div>
+
+Pour génerer un mot de passe, il faut sélectionner le __symbole du dé__. 
+
+<figure markdown="span">
+  ![Image title](../assets/reseau/keepass/KP-15.PNG){ width="700" }
 </figure>
