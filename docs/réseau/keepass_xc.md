@@ -158,5 +158,5 @@ Maintenant donner __un titre__ à cette entrée (ex. Crédit Agricole, Steam, l'
 Pour génerer un mot de passe, il faut sélectionner le __symbole du dé__. 
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-15.PNG){ width="700" }
+  ![Image title](../assets/reseau/keepass/KP-15.PNG){ width="750" }
 </figure>
