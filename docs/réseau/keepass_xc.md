@@ -19,25 +19,25 @@ Lien de téléchargement de KeePassXC : <a href="https://keepassxc.org/download/
 Pour commancer, il faut sélectionner __Next__ :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-01.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-01.PNG){ width="700" }
 </figure>
 
 Cochez la case à gauche pour accepter la license, puis sélectionner une fois de plus __Next__ :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-02.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-02.PNG){ width="700" }
 </figure>
 
 Cochez la case __Create a shortcut on the desktop__ si vous souhaitez créer un raccourci sur le bureau :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-03.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-03.PNG){ width="700" }
 </figure>
 
 Pour finir sélectionner __Install__ afin d'installer l'application :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-04.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-04.PNG){ width="700" }
 </figure>
 
 ??? warning "Erreur MSVCP140.dll"
@@ -58,19 +58,19 @@ Pour finir sélectionner __Install__ afin d'installer l'application :
 Après avoir démarrer KeePassXC, sur l'écran d'acceuil, sélectionner __Créer une base de données__ :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-06.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-06.PNG){ width="700" }
 </figure>
 
 Ensuite, donnez lui un nom : (ex : Mots_de_passe_Baptiste)
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-07.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-07.PNG){ width="700" }
 </figure>
 
 Pour le chiffremment de la base de données, laisser par défaut et sélectionnez __Continuer__ :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-08.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-08.PNG){ width="700" }
 </figure>
 
 Maintenant, saisissez un mots de passe __trés fort__ :
@@ -83,7 +83,7 @@ Maintenant, saisissez un mots de passe __trés fort__ :
     </figure>
     
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-9.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-09.PNG){ width="700" }
 </figure>
 
 ### Paramétrage de KeePassXC
@@ -104,7 +104,7 @@ Cochez la case :
 - __Réduire__ 
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-10.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-10.PNG){ width="700" }
 </figure>
 
 Cochez également : 
@@ -113,5 +113,5 @@ Cochez également :
 - __Afficher une icône dans la zone de notification__ et sélectionner __Multicolore__
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-11.PNG){ width="750" }
+  ![Image title](../assets/reseau/keepass/KP-11.PNG){ width="700" }
 </figure>
