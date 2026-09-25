@@ -40,7 +40,7 @@ Pour finir sélectionner "Install" afin d'installer l'application :
   ![Image title](../assets/reseau/keepass/KP-04.PNG){ width="600" }
 </figure>
 
-??? warning Erreur "MSVCP140.dll"
+??? warning "Erreur MSVCP140.dll"
 
     Si au lancement de KeePassXC vous tomber le message d'erreur suivant :
    
