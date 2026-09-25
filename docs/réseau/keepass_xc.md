@@ -75,7 +75,7 @@ Maintenant, saisissez un mots de passe __trés fort__ :
 
 ??? note "Recommandation"
 
-    Vous pouvez tester la solidité de votre mot de passe sur le site suivant : <a href="https://www.security.org/how-secure-is-my-password/" target="_blank" rel="noopener noreferrer">:fontawesome-solid-arrow-right: www.security.org/how-secure-is-my-password/</a>
+    Vous pouvez tester la solidité de votre mot de passe sur le site suivant : <a href="https://www.security.org/how-secure-is-my-password/" target="_blank" rel="noopener noreferrer">:fontawesome-solid-arrow-right: security.org/how-secure-is-my-password/</a>
     <figure markdown="span">
       ![Image title](../assets/reseau/keepass/PASS-01.PNG){ width="550" }
     </figure>
