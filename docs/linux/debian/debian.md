@@ -6,7 +6,7 @@ hide:
   - footer
 ---
 
-<iframe width="560" height="315" src="https://youtu.be/_JuY79L8_qA?si=qDttXX7_0h3Z7mbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_JuY79L8_qA?si=YMydbcmHpW5P0bMi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 # Configuration de base
