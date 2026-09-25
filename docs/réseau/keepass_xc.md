@@ -19,25 +19,25 @@ Lien de téléchargement de KeePassXC : <a href="https://keepassxc.org/download/
 Pour commancer, il faut sélectionner __Next__ :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-01.PNG){ width="700" }
+  ![Image title](../assets/reseau/keepass/KP-01.PNG){ width="600" }
 </figure>
 
 Cochez la case à gauche pour accepter la license, puis sélectionner une fois de plus __Next__ :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-02.PNG){ width="700" }
+  ![Image title](../assets/reseau/keepass/KP-02.PNG){ width="600" }
 </figure>
 
 Cochez la case __Create a shortcut on the desktop__ si vous souhaitez créer un raccourci sur le bureau :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-03.PNG){ width="700" }
+  ![Image title](../assets/reseau/keepass/KP-03.PNG){ width="600" }
 </figure>
 
 Pour finir sélectionner __Install__ afin d'installer l'application :
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-04.PNG){ width="700" }
+  ![Image title](../assets/reseau/keepass/KP-04.PNG){ width="600" }
 </figure>
 
 ??? warning "Erreur MSVCP140.dll"
@@ -151,7 +151,7 @@ Sélectionner le symbole __+__ à côté du cadenas dans le panneau horizontal :
   ![Image title](../assets/reseau/keepass/KP-14.PNG){ width="800" }
 </figure>
 
-Maintenant donner __un titre__ à cette entrée (ex. Crédit Agricole, Steam, l'équipe etc...) anisi que votre __nom d'utilisateur/Mail__.
+Maintenant donner __un titre__ à cette entrée _(ex. Crédit Agricole, Steam, l'équipe etc...)_ anisi que votre __nom d'utilisateur/Mail__.
 
 <div style="page-break-after: always;"></div>
 
