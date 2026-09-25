@@ -53,6 +53,8 @@ Pour finir sélectionner __Install__ afin d'installer l'application :
 
 ## 3 - Configuration
 
+### Création d'une base de données
+
 Après avoir démarrer KeePassXC, sur l'écran d'acceuil, sélectionner __Créer une base de données__ :
 
 <figure markdown="span">
@@ -80,3 +82,36 @@ Maintenant, saisissez un mots de passe __trés fort__ :
       ![Image title](../assets/reseau/keepass/PASS-01.PNG){ width="550" }
     </figure>
     
+<figure markdown="span">
+  ![Image title](../assets/reseau/keepass/KP-9.PNG){ width="600" }
+</figure>
+
+### Configuration de KeePassXC
+
+Sélectionner l'engrenage situé à droite dans le panneau horizontal : 
+
+<figure markdown="span">
+  ![Image title](../assets/reseau/keepass/KP-14.PNG){ width="450" }
+</figure>
+
+Dans l'onglet __Géneral__ : 
+
+<div style="page-break-after: always;"></div>
+
+Cochez la case : 
+
+- __Cacher la fenêtre lors de la copie dans le presse-papier__ 
+- __Réduire__ 
+
+<figure markdown="span">
+  ![Image title](../assets/reseau/keepass/KP-10.PNG){ width="450" }
+</figure>
+
+Cochez également : 
+
+- __Réduire au lieu de fermer l'appli__ 
+- __Afficher une icône dans la zone de notification__ et sélectionner __Multicolore__
+
+<figure markdown="span">
+  ![Image title](../assets/reseau/keepass/KP-11.PNG){ width="450" }
+</figure>
