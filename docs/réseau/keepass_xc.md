@@ -86,12 +86,12 @@ Maintenant, saisissez un mots de passe __trés fort__ :
   ![Image title](../assets/reseau/keepass/KP-9.PNG){ width="600" }
 </figure>
 
-### Configuration de KeePassXC
+### Paramétrage de KeePassXC
 
 Sélectionner l'engrenage situé à droite dans le panneau horizontal : 
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-14.PNG){ width="450" }
+  ![Image title](../assets/reseau/keepass/KP-14.PNG){ width="800" }
 </figure>
 
 Dans l'onglet __Géneral__ : 
@@ -104,7 +104,7 @@ Cochez la case :
 - __Réduire__ 
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-10.PNG){ width="450" }
+  ![Image title](../assets/reseau/keepass/KP-10.PNG){ width="600" }
 </figure>
 
 Cochez également : 
@@ -113,5 +113,5 @@ Cochez également :
 - __Afficher une icône dans la zone de notification__ et sélectionner __Multicolore__
 
 <figure markdown="span">
-  ![Image title](../assets/reseau/keepass/KP-11.PNG){ width="450" }
+  ![Image title](../assets/reseau/keepass/KP-11.PNG){ width="600" }
 </figure>
