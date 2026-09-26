@@ -6,9 +6,6 @@ hide:
   - footer
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_JuY79L8_qA?si=YMydbcmHpW5P0bMi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 # Configuration de base
 :material-calendar-blank: __01/03/2026__ - :material-calendar-edit: __01/09/2026__
 ## __1 - Configuration Réseau__
