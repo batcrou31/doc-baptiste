@@ -67,10 +67,14 @@ Contenu du fichier :
     nameserver 192.168.1.254
     nameserver 8.8.8.8
     ```
-    
+
 Afin que les modifications soit de nouveau prise en compte, redémarez le service du réseau de la machine en effectuant :
 ```
 systemctl restart networking.service
+```
+et pour finir :
+```
+systemctl reboot
 ```
 ---
 
