@@ -19,16 +19,18 @@ hide:
 Pour installer Wireguard, il faut utiliser le script de <a href="https://github.com/angristan" target="_blank" rel="noopener noreferrer">Angristan :fontawesome-solid-arrow-up-right-from-square:</a> :
 
 ```
+cd /home
 curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh
 chmod +x wireguard-install.sh
 ./wireguard-install.sh
 ```
 
 !!! note "Information importante"
-    Si vous avez une erreur avec __curl__, cela signifie qu'il n'est pas installé sur la machine.    
+    Si vous avez une erreur avec __curl__, cela signifie qu'il n'est pas installé sur votre machine.    
     <div style="page-break-after: always;"></div>
 
-    il l'installer avec la commande suivante :
+    il faut donc l'installer avec la commande suivante :
     ``` 
     apt install curl
     ```
+
