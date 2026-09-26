@@ -14,3 +14,21 @@ hide:
 
 - Un __serveur Debian__ 12/13 [:fontawesome-solid-arrow-right: Configuration de base](../linux/debian/debian.md)
 
+## 3 - Installation
+
+Pour installer Wireguard, il faut utiliser le script de <a href="https://github.com/angristan" target="_blank" rel="noopener noreferrer">Angristan :fontawesome-solid-arrow-up-right-from-square:</a> :
+
+```
+curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh
+chmod +x wireguard-install.sh
+./wireguard-install.sh
+```
+
+!!! note "Information importante"
+    Si vous avez une erreur avec __curl__, cela signifie qu'il n'est pas installé sur la machine.    
+    <div style="page-break-after: always;"></div>
+
+    il l'installer avec la commande suivante :
+    ``` 
+    apt install curl
+    ```
