@@ -35,6 +35,11 @@ gateway <adresse>
     dns-nameservers <adresse1> <adresse2>
     ```
 
+Afin que les modifications soit prise en compte, redémarez le service du réseau de la machine en effectuant :
+```
+systemctl restart networking.service
+```
+
 ### Configuration des serveurs DNS
 !!! warning "Attention"
     Manupulation déjà effectué dans la configuration ci-dessus sur debian 12
@@ -62,7 +67,8 @@ Contenu du fichier :
     nameserver 192.168.1.254
     nameserver 8.8.8.8
     ```
-Afin que les modifications soit prise en compte, il faut redémarer le service réseau de la machine en effectuant :
+    
+Afin que les modifications soit de nouveau prise en compte, redémarez le service du réseau de la machine en effectuant :
 ```
 systemctl restart networking.service
 ```
