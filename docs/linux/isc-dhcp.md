@@ -7,7 +7,7 @@ hide:
 ---
 
 # ISC-DHCP
-:material-calendar-blank: __31/03/2026__ - :material-calendar-edit: __31/03/2026__
+:material-calendar-blank: __31/03/2026__
 <div style="page-break-after: always;"></div>
 <a href="https://www.isc.org/dhcp/" target="_blank" rel="noopener noreferrer">ISC-DHCP :fontawesome-solid-arrow-up-right-from-square:</a> est un serveur DHCP (Dynamic Host Configuration Protocol) permettant l’attribution dynamique et centralisée des adresses IP ainsi que des paramètres de configuration aux équipements d’un réseau.
 
