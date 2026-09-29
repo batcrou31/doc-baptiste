@@ -14,6 +14,8 @@ Voici les différents sites sur lesquels je me suis basé pour écrire les diff�
 ## :fontawesome-solid-computer: Tuto Informatique
 - <a href="https://www.pc2s.fr/" target="_blank" rel="noopener noreferrer">pc2s.fr :fontawesome-solid-arrow-up-right-from-square:</a>
 - <a href="https://www.it-connect.fr/" target="_blank" rel="noopener noreferrer">it-connect.fr :fontawesome-solid-arrow-up-right-from-square:</a>
+- <a href="https://www.malekal.com/" target="_blank" rel="noopener noreferrer">malekal.com :fontawesome-solid-arrow-up-right-from-square:</a>
+
 
 ## :material-microsoft-internet-explorer: Forums
 
