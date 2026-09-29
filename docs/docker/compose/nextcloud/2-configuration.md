@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/hammer
+icon: fontawesome/solid/cogs
 created: 2026-03-06
 modified: 2026-03-06
 ---

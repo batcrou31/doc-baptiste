@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/hammer
+icon: fontawesome/solid/cogs
 ---
 
 # Configuration
