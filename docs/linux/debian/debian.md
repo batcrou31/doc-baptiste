@@ -7,7 +7,7 @@ hide:
 ---
 
 # Configuration de base
-:material-calendar-blank: __01/03/2026__ - :material-calendar-edit: __02/09/2026__
+:material-calendar-blank: __01/03/2026__ - :material-calendar-edit: __02/10/2026__
 ## __1 - Configuration Réseau__
 ### Ajout d'une IP fixe
 Pour basculer la machine en adresse IP fixe, il faut modifier son interface.
@@ -143,7 +143,7 @@ Pour génerer un certificat, il faut d'abord ouvrir le Terminal en Administrateu
 ```
 cd .ssh 
 ```
-entrer la commande suivante :
+puis entrer la commande suivante :
 ```
 ssh-keygen -t rsa -b 2048 
 ```
@@ -153,10 +153,10 @@ ssh-keygen -t rsa -b 2048
 
 Il faut ensuite spécifier :
 
-- le nom (test_rsa)
-- la passphrase (optionel)
+- Le nom __(test_rsa)__
+- La passphrase __(optionel)__
 
-Ensuite, sur la machine linux il faut aller dans le dossier ".ssh" :
+Ensuite, sur la machine linux il faut aller dans le dossier __.ssh__ :
 ```
 cd .ssh 
 ```
@@ -164,11 +164,11 @@ ou si le dossier n'existe pas :
 ```
 mkdir .ssh 
 ```
-puis créer un fichier nommé "authorized_keys" et coller tout le contenu du fichier "test.pub" créer précédament :
+puis créer un fichier nommé __authorized_keys__ et coller tout le contenu du fichier __test.pub__ créer précédament :
 ```
 nano authorized_keys
 ```
-Il faut ensuite retourner dans le dossier ".ssh" sur l'hôte Windows et créer un fichier "config"
+Il faut ensuite retourner dans le dossier __.ssh__ sur l'hôte Windows et créer un fichier nommé : __config__
 <figure markdown="span">
   ![Image title](../../assets/linux/certif-1.png){ width="600" }
 </figure>
@@ -179,10 +179,35 @@ HostName <adresse>
 IdentityFile ~/.ssh/test_rsa
 User root
 ```
-Pour finir, vous pouvez maintenant vous conecter en SSH sur vos machine sans mots de passe !
+
+Pour finir, il faut désactiver l'authentification __root__ avec mots de passe : 
+
+```
+nano /etc/ssh/sshd_config
+```
+
+Il faut rajouter la ligne suivante après __PermitRootLogin__ :
+
+```
+prohibit-password
+```
+
+<figure markdown="span">
+  ![Image title](../../assets/linux/ssh_log.PNG){ width="800" }
+</figure>
+
+Il est maintenant possible de se connecter à sa machine avec la commande suivante : 
 ```
 ssh test
 ```
+
+??? note "Note"
+
+  le nom __test__ vien de la configuration du fichier __config__ et non du nom d'hôte de la machine :
+  ```
+  Host test
+  ```
+  vous pouvez modifier cette valeur avec le nom de votre machine.
 
 ## __4 - Divers__
 ### Ajout d'un utilisateur au groupe `sudo`
