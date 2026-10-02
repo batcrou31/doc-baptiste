@@ -174,8 +174,8 @@ Il faut ensuite retourner dans le dossier __.ssh__ sur l'hôte Windows et créer
 </figure>
 Contenu du fichier :
 ```
-Host test
-HostName <adresse>
+Host <ID_de_la_machine> test
+HostName <adresse_IP> 192.168.1.10
 IdentityFile ~/.ssh/test_rsa
 User root
 ```
