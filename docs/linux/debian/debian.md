@@ -203,11 +203,11 @@ ssh test
 
 ??? note "Note"
 
-  le nom __test__ vien de la configuration du fichier __config__ et non du nom d'hôte de la machine :
-  ```
-  Host test
-  ```
-  vous pouvez modifier cette valeur avec le nom de votre machine.
+    le nom __test__ vien de la configuration du fichier __config__ et non du nom d'hôte de la machine :
+    ```
+    Host test
+    ```
+    vous pouvez modifier cette valeur avec le nom de votre machine.
 
 ## __4 - Divers__
 ### Ajout d'un utilisateur au groupe `sudo`
